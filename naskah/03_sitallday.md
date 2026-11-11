@@ -1,26 +1,20 @@
 # What Happens If You Sit All Day, Every Day?
 
-## SHORT (target 89 s)
+## SHORT (1 audio file, max 1000 characters incl. tags, ~55-60 s)
 
-You wake up and sit for breakfast. Sit in the car. Sit at your desk. Then sit on the couch and scroll. What happens if you sit all day, every day?
+[bored] Sit for breakfast. [engine starting] Sit in the car. [keyboard typing] Sit at your desk. Sit on the couch. [excited] What happens if you sit all day, every day?
 
-The average American adult sits about six and a half hours a day. Teens? More than eight.
+The average adult sits about six and a half hours a day. Teens? [gasping] More than eight. [pause] So how come sitting still can hurt you?
 
-People say sitting is the new smoking. But how come just sitting still could hurt you?
+[playful] Your leg muscles are like sugar sponges. When you sit for hours, they basically [sleepy drowsy voice] go to sleep.
 
-Here's the thing. Your leg muscles are like sugar sponges. When they move, they pull sugar out of your blood. When you sit for hours, those sponges basically go to sleep.
+[heartbeat] After just three hours of sitting, blood flow in your leg arteries gets worse. Your hips tighten, and your back starts complaining. [sighing]
 
-After just three hours of sitting, scientists found that blood flow in the leg arteries got noticeably worse.
+[drum roll] Plot twist! Sitting is NOT the new smoking. [chuckling] Smoking is way worse. A study of over a million people found about an hour of brisk walking a day seemed to cancel out the risk of sitting eight hours. Even two-minute walks every twenty minutes help.
 
-Your hips get tight, your glutes get lazy, and your lower back starts complaining.
+[laughing] So don't quit your chair. Just don't marry it.
 
-Plot twist! Sitting is not the new smoking. Smoking is way worse. And the fix is surprisingly simple. A study of over a million people found that about an hour of moderate activity a day, like brisk walking, seemed to cancel out the extra risk from sitting eight hours.
-
-Even tiny moves help. Getting up for a two-minute walk every twenty minutes lowered blood sugar after meals.
-
-So you don't have to quit your chair. Just don't marry it.
-
-Are you sitting right now? Be honest. Team standing desk or team couch? Comment below, and send this to the friend who hasn't moved since lunch.
+[playful] Team standing desk or team couch? Comment below!
 
 ## YOUTUBE (target 144 s)
 

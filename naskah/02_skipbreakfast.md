@@ -1,26 +1,22 @@
 # What Happens If You Skip Breakfast for 30 Days?
 
-## SHORT (target 89 s)
+## SHORT (1 audio file, max 1000 characters incl. tags, ~55-60 s)
 
-They told you breakfast is the most important meal of the day. But what if you skipped it... for thirty whole days?
+[playful] Breakfast is the most important meal of the day... right? [pause] So what if you skipped it for thirty days?
 
-First, a little secret. That famous line got a huge push from cereal companies more than a hundred years ago. Yep. People selling breakfast told you breakfast was important.
+[whispering] Fun fact: that slogan got a huge push from cereal companies over a hundred years ago. [chuckling] Yep.
 
-So how come so many people skip it and feel totally fine?
+[tired] Week one is rough. Your hunger hormone follows your schedule, so your stomach still growls at breakfast time. You might feel cranky.
 
-Week one is the rough part. Your hunger hormone, ghrelin, follows your schedule. So at your usual breakfast time, your stomach still growls. You might feel cranky.
+[excited] But your body adapts. After a couple of weeks, that morning hunger often fades.
 
-But for many people, the body adapts. After a couple of weeks, that morning hunger calms down, because your hormones learn the new routine.
+[playful] And weight? A big BMJ review found breakfast eaters ate about 260 more calories a day, and breakfast didn't help weight loss.
 
-What about weight? A big review in the BMJ found breakfast eaters actually ate about two hundred sixty more calories a day, and breakfast didn't help people lose weight.
+[drum roll] Plot twist! Skipping only works if lunch isn't a junk food party. Many skippers overeat later.
 
-Plot twist! Skipping only works if lunch doesn't turn into a giant junk food party. Many skippers overeat later and cancel it all out.
+[softly] Kids, teens, and people with diabetes on medication should be careful. What really matters is what you eat all day.
 
-And it's not for everyone. Kids and teens usually focus better at school after breakfast. And people with diabetes on medication should talk to a doctor first.
-
-So breakfast isn't magic, and skipping it isn't a crime. What really matters is what you eat all day.
-
-Are you team breakfast or team skip? Tell me in the comments, and send this to the friend who lives on coffee until noon.
+[playful] Team breakfast or team skip? Comment below, and send this to your coffee-till-noon friend!
 
 ## YOUTUBE (target 144 s)
 

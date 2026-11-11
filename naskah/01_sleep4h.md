@@ -1,24 +1,20 @@
 # What If You Slept Only 4 Hours Every Night?
 
-## SHORT (target 89 s)
+## SHORT (1 audio file, max 1000 characters incl. tags, ~55-60 s)
 
-Four hours of sleep. Every. Single. Night. Sounds like a hustle hack, right? More time to get stuff done.
+[excited] Four hours of sleep. [slowly] Every. Single. Night. [playful] Sounds like a hustle hack, right? [pause] So how come your body falls apart?
 
-A lot of people think your body just gets used to it. So how come it keeps falling apart?
+[yawning] Day one, your focus slips. In one study, people sleeping four hours a night for two weeks kept getting worse on attention tests. [whispering] And they barely noticed.
 
-Day one, your focus slips and your reactions slow down. In one study, people who slept four hours a night for two weeks got worse and worse on simple attention tests. The scary part? They barely noticed.
+[excited] Day three, your hunger goes wild. Your "I'm full" hormone drops, and your "feed me" hormone jumps. Hello, pizza. Chips. Sugar. All of it.
 
-Day three, your hunger goes wild. Short sleep lowers leptin, the hormone that says "I'm full," and raises ghrelin, the one that screams "feed me!" Suddenly you want pizza, chips, and sugar. All of it.
+[heartbeat] Day six, healthy young men handled sugar like people heading toward diabetes. And people sleeping under six hours are about four times more likely to catch a cold. [sniffling]
 
-Day six, your blood sugar starts acting weird. In a famous experiment, healthy young men who slept four hours a night for six nights handled sugar like people heading toward diabetes.
+[drum roll] Plot twist! A few people can thrive on less sleep, thanks to a rare gene. Your chances? [chuckling] Tiny.
 
-And your immune system? People who sleep less than six hours are about four times more likely to catch a cold.
+[pause] For most of us, seven hours or more isn't lazy. It's maintenance.
 
-Plot twist! A few people really can sleep less and feel fine, thanks to a rare gene. But the chance that you have it? Tiny.
-
-So for most of us, seven hours or more isn't lazy. It's maintenance.
-
-Be honest. How many hours did you sleep last night? Team four hours, or team eight hours? Tell me in the comments, and send this to the friend who's always online at 3 AM.
+[playful] So, team four hours or team eight hours? Comment below, and send this to your 3 AM friend!
 
 ## YOUTUBE (target 144 s)
 
