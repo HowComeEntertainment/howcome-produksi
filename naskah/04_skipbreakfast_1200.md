@@ -1,6 +1,6 @@
 # Skip Breakfast for 30 Days (1 narration -> YouTube + Short)
 
-Total: 1158 characters incl. tags (max 1200). Short (9:16) and YouTube (16:9) both use this full narration, same duration.
+Total: 1158 characters incl. tags (max 1200). YouTube = full narration. Short = cut from it: hook + point2 + twist + cta (~30 s).
 
 ## hook (SHORT + YT, 160 chars)
 
@@ -22,7 +22,7 @@ Week one is rough. Your hunger hormone, ghrelin, follows your schedule, so your 
 
 [surprised] Here's the shock. A big BMJ review found breakfast eaters actually ate about two hundred sixty more calories a day, and breakfast didn't help people lose weight.
 
-## twist (YT only, 195 chars)
+## twist (SHORT + YT, 195 chars)
 
 [excited] Plot twist! Skipping only works if lunch isn't a junk food party. And kids, teens, and people with diabetes on medication should be careful. What really matters is what you eat all day.
 
