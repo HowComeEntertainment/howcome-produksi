@@ -1,0 +1,43 @@
+# What If You Swallowed Your Gum Every Day?
+
+Total: 1735 characters incl. tags (max 1800). YouTube = full narration + silent scenes (144 s). Short = SHORT blocks cut to 55 s.
+
+## hook (SHORT + YT)
+
+[gasps] Gulp. You just swallowed your gum. [curious] Remember what they told you? It stays in your stomach for seven years. But what if you swallowed gum every day? [laughs] Is your stomach a gum museum?
+
+## context (YT only)
+
+Chewing gum is made with a gum base that your body really can't digest. That part is true. The sweet flavor gets absorbed, but the rubbery base just stays rubbery. Gum base is made from rubbery materials, and some versions are similar to stuff used in other everyday products. Your stomach acid and enzymes can't really break it down.
+
+## point1 (YT only)
+
+But your gut is not a storage room. It's more like a conveyor belt. Muscles keep pushing everything forward, even the stuff you can't digest, like some seeds and fibers. [laughs] Your body doesn't need to digest something to get rid of it. A single piece of gum is small and soft, so it usually just slides through with everything else you ate. The same thing happens with corn skins, which is why you sometimes see them come out the other end.
+
+## point2 (SHORT + YT)
+
+[surprised] So the truth? A swallowed piece of gum usually leaves your body in a few days, not seven years. Doctors only saw real trouble in rare cases, mostly kids who swallowed tons of gum, often with other things like coins. So swallowing a piece now and then isn't a big deal, but gum is still made for chewing, not eating.
+
+## twist (SHORT + YT)
+
+[excited] Plot twist! People have chewed gum for thousands of years. Scientists found a piece of ancient chewed tree tar, about five thousand seven hundred years old, and they got the chewer's full DNA from it. [laughs] It even had bits of hazelnut and duck in it. That's like a five-thousand-year-old dinner receipt.
+
+## cta (SHORT + YT)
+
+So, do you swallow your gum or spit it out? Tell me in the comments, and subscribe for more HowCome!
+
+## Full narration
+
+```
+[gasps] Gulp. You just swallowed your gum. [curious] Remember what they told you? It stays in your stomach for seven years. But what if you swallowed gum every day? [laughs] Is your stomach a gum museum?
+
+Chewing gum is made with a gum base that your body really can't digest. That part is true. The sweet flavor gets absorbed, but the rubbery base just stays rubbery. Gum base is made from rubbery materials, and some versions are similar to stuff used in other everyday products. Your stomach acid and enzymes can't really break it down.
+
+But your gut is not a storage room. It's more like a conveyor belt. Muscles keep pushing everything forward, even the stuff you can't digest, like some seeds and fibers. [laughs] Your body doesn't need to digest something to get rid of it. A single piece of gum is small and soft, so it usually just slides through with everything else you ate. The same thing happens with corn skins, which is why you sometimes see them come out the other end.
+
+[surprised] So the truth? A swallowed piece of gum usually leaves your body in a few days, not seven years. Doctors only saw real trouble in rare cases, mostly kids who swallowed tons of gum, often with other things like coins. So swallowing a piece now and then isn't a big deal, but gum is still made for chewing, not eating.
+
+[excited] Plot twist! People have chewed gum for thousands of years. Scientists found a piece of ancient chewed tree tar, about five thousand seven hundred years old, and they got the chewer's full DNA from it. [laughs] It even had bits of hazelnut and duck in it. That's like a five-thousand-year-old dinner receipt.
+
+So, do you swallow your gum or spit it out? Tell me in the comments, and subscribe for more HowCome!
+```

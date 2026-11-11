@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Drank Only Water for 30 Days? =====
+const B={
+ hook:SCN({bg:'sky',items:[{ic:'soda',at:'soda',x:.15,y:.35,s:.6},{ic:'x',at:'soda',x:.15,y:.35,s:.6},{ic:'water',at:'water',x:.5,y:.45,s:1.1},{ic:'calendar',at:'thirty',x:.85,y:.35,s:.55}],
+   labels:[{t:'ONLY WATER',at:'water',x:.5,y:.88,bg:'#5EC8FF',fill:OL}],komo:{x:.85,y:1.1,s:isV?.55:.5,expr:'think',expr2:'surprised',at2:'boring'},title:{t:'30 DAYS, ONLY WATER?',at:'what',fill:'#E8505B'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'calendar',at:2.6,x:.5,y:.45,s:.9}],extra:(t,t0)=>{const d=Math.max(1,Math.min(30,Math.floor((t-t0-3)*2.5)));return t>t0+3?bigText('DAY '+d,PX(.5),PY(.5)+40,90,{fill:OL}):'';},
+   komo:{x:.85,y:1.1,expr:'think',mag:1},title:{t:'THE 30-DAY WATER CHALLENGE',at:2.5},bot:{t:'WHAT CHANGES?',at:9}}),
+ context:SCN({bg:'brown',items:[{ic:'soda',at:'soda',x:.25,y:.45,s:1},{ic:'sugar',at:'thirty-nine',x:.65,y:.35,s:.8},{ic:'sugar',at:'teaspoons',x:.8,y:.5,s:.8},{ic:'sugar',at:'teaspoons',x:.65,y:.62,s:.8}],
+   title:{t:'~39 G SUGAR PER CAN',at:'thirty-nine',fill:'#FFE27A'},sub:{t:'≈ 10 TEASPOONS',at:'teaspoons'},bot:{t:'DRINKING SUGAR WITHOUT NOTICING',at:'noticing'},src:'Source: typical 12 oz cola label; CDC sugary drinks facts'}),
+ sil_context:SCN({bg:'sand',items:[{ic:'soda',at:.6,x:.15,y:.45,s:.55},{ic:'can2',at:1.2,x:.38,y:.45,s:.55},{ic:'candy',at:1.8,x:.62,y:.45,s:.6},{ic:'water',at:3,x:.86,y:.5,s:.8},{ic:'check',at:4,x:.86,y:.2,s:.5}],
+   title:{t:'HIDDEN SUGAR IN DRINKS',at:.2},card:{lines:['Soda, juice, sweet coffee, energy drinks','can all be full of added sugar'],at:5}}),
+ point1:SCN({bg:'sky',items:[{ic:'brain',at:'headaches',x:.25,y:.4,s:.7},{ic:'burst',at:'headaches',x:.25,y:.2,s:.4},{ic:'water',at:'two',x:.7,y:.45,s:.9},{ic:'drop',at:'pee',x:.88,y:.25,s:.45}],
+   title:{t:'WEEK 1: HEADACHES & CRAVINGS',at:.1},sub:{t:'WEEK 2: CRAVINGS CALM DOWN',at:'two',bg:'#3BB273'},bot:{t:'PALE YELLOW PEE = ENOUGH',at:'pee',bg:'#F4C542',fill:OL}}),
+ sil_point1:SCN({bg:'navy',extra:(t,t0)=>{let s='';['#F7F3C0','#F4E27A','#E5B94A','#C98A2B'].forEach((c,i)=>{const k=popS(t,t0+.8+i*.5,.4);if(k>0)s+=g(tr(PX(.12+i*.25),PY(.45),k),`<rect x="-70" y="-120" width="140" height="240" rx="24" fill="${c}" stroke="${OL}" stroke-width="7"/>`)+bigText(['GREAT','GOOD','DRINK!','DRINK NOW'][i],PX(.12+i*.25),PY(.45)+200,40,{sw:7});});return s;},
+   title:{t:'THE PEE COLOR CHART',at:.2},card:{lines:['Lighter = better hydrated','(not a medical test)'],at:6}}),
+ point2:SCN({bg:'plum',items:[{ic:'soda',at:'liquid',x:.2,y:.45,s:.8},{ic:'stomach',at:'fill',x:.5,y:.45,s:.8},{ic:'water',at:'swap',x:.8,y:.45,s:.85}],
+   title:{t:'LIQUID CALORIES DON\'T FILL YOU',at:.1,fill:'#FF8A8A'},sub:{t:'SWAP = HUNDREDS OF KCAL LESS',at:'hundreds',bg:'#3BB273'},src:'Sources: Malik et al., Am J Clin Nutr (2006); Stookey et al., Obesity (2008)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'soda',at:.6,x:.25,y:.45,s:.8},{ic:'water',at:1.4,x:.75,y:.48,s:.9}],extra:(t,t0)=>t>t0+2.2?bigText('→',PX(.5),PY(.48),120,{fill:'#3BB273',sw:8}):'',
+   title:{t:'THE EASIEST SWAP',at:.2},card:{lines:['Swap one soda a day for water:','~140 fewer calories daily'],at:IS_SHORT?.3:4}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'you',items:[{ic:'water',at:'chug',x:.25,y:.45,s:.8},{ic:'water',at:'chug',x:.4,y:.45,s:.8},{ic:'kidney',at:'kidneys',x:.75,y:.45,s:.9},{ic:'warn',at:'dangerously',x:.75,y:.15,s:.5}],
+   sub:{t:'TOO MUCH, TOO FAST = DANGER',at:'chug',bg:'#E5383B'},bot:{t:'RARE: "WATER INTOXICATION"',at:'rare'},src:'Source: hyponatremia, NIH MedlinePlus'}),
+ sil_twist:CHECKS({title:'SMART HYDRATION',items:['DRINK WHEN THIRSTY','SIP, DON\'T CHUG','FOOD HAS WATER TOO','SWAP SODA FOR WATER']}),
+ cta:VSCTA({L:'TEAM WATER',R:'TEAM SODA',icL:'water',icR:'soda',cl:'#5EC8FF',cr:'#E5383B',atL:'water#1',atR:'soda',atV:'or',sL:.7,sR:.5,title:'COULD YOU DO IT?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU DRANK','ONLY WATER FOR','30 DAYS?']);

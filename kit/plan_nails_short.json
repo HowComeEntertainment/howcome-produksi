@@ -1,0 +1,43 @@
+{
+ "id": "nails",
+ "SC": "nails_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 7.36
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 7.36,
+   "t1": 24.58
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 24.58,
+   "t1": 28.816
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 28.816,
+   "t1": 45.496
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 45.496,
+   "t1": 52.176
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 52.176,
+   "t1": 55.0
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "gum",
+ "SC": "gum_yt",
+ "total": 144.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 10.6
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 10.6,
+   "t1": 20.776
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 20.776,
+   "t1": 38.116
+  },
+  {
+   "name": "sil_context",
+   "kind": "silent",
+   "t0": 38.116,
+   "t1": 48.292
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 48.292,
+   "t1": 69.432
+  },
+  {
+   "name": "sil_point1",
+   "kind": "silent",
+   "t0": 69.432,
+   "t1": 79.608
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 79.608,
+   "t1": 96.768
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 96.768,
+   "t1": 106.944
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 106.944,
+   "t1": 122.734
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 122.734,
+   "t1": 132.91
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 132.91,
+   "t1": 138.0
+  },
+  {
+   "name": "sil_outro",
+   "kind": "silent",
+   "t0": 138.0,
+   "t1": 144.0
+  }
+ ]
+}

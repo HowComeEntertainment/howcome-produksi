@@ -1,0 +1,79 @@
+{
+ "id": "blinking",
+ "SC": "blinking_yt",
+ "total": 144.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 6.98
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 6.98,
+   "t1": 17.172
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 17.172,
+   "t1": 34.022
+  },
+  {
+   "name": "sil_context",
+   "kind": "silent",
+   "t0": 34.022,
+   "t1": 44.214
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 44.214,
+   "t1": 66.144
+  },
+  {
+   "name": "sil_point1",
+   "kind": "silent",
+   "t0": 66.144,
+   "t1": 76.336
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 76.336,
+   "t1": 93.116
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 93.116,
+   "t1": 103.308
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 103.308,
+   "t1": 121.558
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 121.558,
+   "t1": 131.75
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 131.75,
+   "t1": 138.0
+  },
+  {
+   "name": "sil_outro",
+   "kind": "silent",
+   "t0": 138.0,
+   "t1": 144.0
+  }
+ ]
+}

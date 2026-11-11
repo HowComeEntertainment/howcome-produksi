@@ -1,0 +1,43 @@
+# What If You Held In Every Sneeze?
+
+Total: 1638 characters incl. tags (max 1800). YouTube = full narration + silent scenes (144 s). Short = SHORT blocks cut to 55 s.
+
+## hook (SHORT + YT)
+
+[excited] Ahh... ahh... You feel a sneeze coming, and you're in a quiet room. [curious] What if you held in every single sneeze? [laughs] You hold it in.
+
+## context (YT only)
+
+A sneeze is your body's way of blasting out dust, germs, and anything that irritates your nose. And it's fast. Scientists found that the cloud from a sneeze can travel several meters across a room. It's like your nose has its own alarm system. A tickle sends a signal to your brain, your lungs suck in air, and then your chest, throat, and face muscles all fire together.
+
+## point1 (YT only)
+
+When you pinch your nose and close your mouth, all that pressure has nowhere to go. It pushes back into your ears, your sinuses, and your throat. Most of the time you just feel a weird pop. [sighs] But not always. Doctors have warned that holding in sneezes could, in rare cases, hurt your eardrums or even force air into places it shouldn't be. So most experts say the same thing: just let it out, into a tissue or your elbow.
+
+## point2 (SHORT + YT)
+
+[surprised] Doctors reported a real case. A man held in a sneeze by pinching his nose and closing his mouth, and it tore the back of his throat. He ended up in the hospital, eating through a tube for days. Doctors said cases like this are very rare, but it shows how much force a sneeze really packs.
+
+## twist (SHORT + YT)
+
+[excited] Plot twist! You almost never sneeze in your sleep. When you're asleep, the nerves that trigger a sneeze mostly shut down. [laughs] So your body saves all its sneezes for when you're awake. And no, your eyes can't pop out if you sneeze with them open. That's a myth.
+
+## cta (SHORT + YT)
+
+So, are you a loud sneezer or a tiny sneezer? Tell me in the comments, and subscribe for more HowCome!
+
+## Full narration
+
+```
+[excited] Ahh... ahh... You feel a sneeze coming, and you're in a quiet room. [curious] What if you held in every single sneeze? [laughs] You hold it in.
+
+A sneeze is your body's way of blasting out dust, germs, and anything that irritates your nose. And it's fast. Scientists found that the cloud from a sneeze can travel several meters across a room. It's like your nose has its own alarm system. A tickle sends a signal to your brain, your lungs suck in air, and then your chest, throat, and face muscles all fire together.
+
+When you pinch your nose and close your mouth, all that pressure has nowhere to go. It pushes back into your ears, your sinuses, and your throat. Most of the time you just feel a weird pop. [sighs] But not always. Doctors have warned that holding in sneezes could, in rare cases, hurt your eardrums or even force air into places it shouldn't be. So most experts say the same thing: just let it out, into a tissue or your elbow.
+
+[surprised] Doctors reported a real case. A man held in a sneeze by pinching his nose and closing his mouth, and it tore the back of his throat. He ended up in the hospital, eating through a tube for days. Doctors said cases like this are very rare, but it shows how much force a sneeze really packs.
+
+[excited] Plot twist! You almost never sneeze in your sleep. When you're asleep, the nerves that trigger a sneeze mostly shut down. [laughs] So your body saves all its sneezes for when you're awake. And no, your eyes can't pop out if you sneeze with them open. That's a myth.
+
+So, are you a loud sneezer or a tiny sneezer? Tell me in the comments, and subscribe for more HowCome!
+```

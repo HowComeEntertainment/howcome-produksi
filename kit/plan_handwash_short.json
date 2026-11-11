@@ -1,0 +1,43 @@
+{
+ "id": "handwash",
+ "SC": "handwash_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 8.09
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 8.09,
+   "t1": 24.49
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 24.49,
+   "t1": 30.214
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 30.214,
+   "t1": 46.284
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 46.284,
+   "t1": 51.184
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 51.184,
+   "t1": 55.0
+  }
+ ]
+}

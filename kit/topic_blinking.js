@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Stopped Blinking? =====
+const B={
+ hook:SCN({bg:'night',items:[{ic:'eye',at:'blinking',x:.5,y:.42,s:1.2}],komo:{x:.85,y:1.1,s:isV?.55:.5,expr:'think',expr2:'surprised',at2:'stopped'},
+   labels:[{t:'ARE YOU BLINKING?',at:'quick',x:.5,y:.82,bg:'#5B6C8F'}],title:{t:'STOP BLINKING FOREVER?',at:'stopped',fill:'#FFE27A'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'eye',at:2.6,x:.5,y:.42,s:1}],extra:(t,t0)=>t>t0+3?bigText(String(Math.floor((t-t0-3)*1.5))+' s',PX(.5),PY(.85),90,{fill:'#FFE27A',sw:10}):'',
+   title:{t:'THE STARING CHALLENGE',at:2.5},bot:{t:'HOW LONG CAN YOU LAST?',at:8}}),
+ context:SCN({bg:'sky',items:[{ic:'eye',at:'fifteen',x:.3,y:.45,s:.9},{ic:'drop',at:'tears',x:.75,y:.45,s:.8}],
+   title:{t:'15-20 BLINKS A MINUTE',at:'fifteen',fill:'#E8505B'},sub:{t:'TEARS = WINDSHIELD WIPER',at:'windshield'},bot:{t:'0.1 SECOND PER BLINK',at:'tenth'}}),
+ sil_context:SCN({bg:'sand',extra:(t,t0)=>{const n=Math.floor(Math.max(0,t-t0-1)*900);return bigText(n.toLocaleString('en-US'),PX(.5),PY(.45),150,{fill:'#E8505B',sw:12});},
+   title:{t:'BLINKS TODAY',at:.2},card:{lines:['That\'s around 15,000+ blinks','every single day'],at:5}}),
+ point1:SCN({bg:'plum',items:[{ic:'eye',at:.1,x:.5,y:.42,s:1,until:'sting'},{ic:'eyeRed',at:'sting',x:.5,y:.42,s:1},{ic:'germ',at:'germs',x:.82,y:.25,s:.6},{ic:'drop',at:'drops',x:.18,y:.25,s:.5}],
+   title:{t:'NO BLINKING = DRY EYES',at:.1,fill:'#FF8A8A'},sub:{t:'STING, BURN, RED',at:'sting',bg:'#E5383B'},bot:{t:'DUST & GERMS STAY ON',at:'germs'}}),
+ sil_point1:SCN({bg:'navy',items:[{ic:'eye',at:.6,x:.25,y:.45,s:.75},{ic:'eyeRed',at:1.4,x:.75,y:.45,s:.75}],extra:(t,t0)=>bigText('BLINKING',PX(.25),PY(.8),46,{sw:7})+bigText('NOT BLINKING',PX(.75),PY(.8),46,{sw:7}),
+   title:{t:'YOUR EYE\'S SHIELD',at:.2},card:{lines:['Tears keep the eye wet,','clean, and protected'],at:6}}),
+ point2:SCN({bg:'grid',items:[{ic:'phone',at:'screens',x:.3,y:.45,s:.9},{ic:'eye',at:'blink',x:.72,y:.42,s:.8}],extra:(t,t0,t1,T)=>{const a=T('eighteen');return t>a?bigText(t>T('few')?'18 → ~4':'18 / MIN',PX(.72),PY(.85),80,{fill:'#FFE27A',sw:10}):'';},
+   title:{t:'SCREENS = FEWER BLINKS',at:'screens'},bot:{t:'TIRED, DRY EYES',at:'tired'},src:'Source: Patel et al., Optom Vis Sci (1991)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'phone',at:.6,x:.2,y:.45,s:.7},{ic:'clock',at:1.2,x:.5,y:.45,s:.6},{ic:'eye',at:1.8,x:.8,y:.45,s:.6}],
+   title:{t:'THE 20-20-20 RULE',at:.2},card:{lines:['Every 20 minutes, look 20 feet away','for 20 seconds'],at:IS_SHORT?.3:3}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'blinking',items:[{ic:'brain',at:'brain\'s',x:.5,y:.4,s:1},{ic:'burst',at:'lights',x:.5,y:.4,s:.5}],
+   sub:{t:'EVERY BLINK = MINI BRAIN BREAK?',at:'break',bg:'#3BB273'},komo:{x:.15,y:1.1,s:isV?.55:.5,expr:'surprised',at:'scientists'},src:'Source: Nakano et al., PNAS (2013)'}),
+ sil_twist:CHECKS({title:'HAPPY EYES',items:['BLINK FULLY','20-20-20 RULE','SCREEN AT ARM\'S LENGTH','DRY EYES? SEE A DOCTOR']}),
+ cta:VSCTA({L:'TEAM BLINK',R:'TEAM STARE',icL:'eye',icR:'eyeRed',cl:'#3BB273',cr:'#9C7BE0',atL:'blink',atR:'stare',atV:'or',sL:.5,sR:.5,title:'DID YOU BLINK?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','STOPPED BLINKING?']);

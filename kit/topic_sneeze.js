@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Held In Every Sneeze? =====
+const B={
+ hook:SCN({bg:'sage',items:[{ic:'nose',at:'ahh',x:.5,y:.42,s:1.1},{ic:'burst',at:'hold',x:.5,y:.2,s:.5}],komo:{x:.85,y:1.1,s:isV?.55:.5,expr:'surprised'},
+   labels:[{t:'QUIET ROOM...',at:'quiet',x:.5,y:.85,bg:'#5B6C8F'}],title:{t:'HOLD EVERY SNEEZE?',at:'what',fill:'#E8505B'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'nose',at:2.6,x:.5,y:.45,s:.9}],extra:(t,t0)=>{const k=ss((t-t0-3)/6);return `<circle cx="${PX(.5)}" cy="${PY(.45)}" r="${fmt(80+300*k)}" fill="none" stroke="#E5383B" stroke-width="10" stroke-dasharray="20 14" opacity="${fmt(k)}"/>`;},
+   title:{t:'WHERE DOES THE PRESSURE GO?',at:2.5},bot:{t:'LET\'S FIND OUT',at:8}}),
+ context:SCN({bg:'sky',items:[{ic:'germ',at:'germs',x:.3,y:.4,s:.8},{ic:'nose',at:'nose',x:.15,y:.5,s:.5},{ic:'lungs',at:'lungs',x:.72,y:.45,s:.7}],extra:(t,t0,t1,T)=>{const k=ss((t-T('several'))/1.2);return k>0?`<path d="M${PX(.1)},${PY(.85)}H${fmt(PX(.1)+PX(.8)*k)}" stroke="#5EC8FF" stroke-width="16" stroke-linecap="round"/>`:''},
+   title:{t:'YOUR NOSE\'S ALARM SYSTEM',at:.1},sub:{t:'CLOUD TRAVELS SEVERAL METERS',at:'several'},src:'Source: Bourouiba et al., J Fluid Mech (2014)'}),
+ sil_context:SCN({bg:'sand',extra:(t,t0)=>{let s='';['TICKLE','BRAIN SIGNAL','BIG BREATH','ACHOO!'].forEach((x,i)=>{const k=popS(t,t0+.8+i*1.2,.4);if(k>0)s+=label(x,{x:PX(.5),y:PY(.05+i*.27),size:56,bg:['#5B6C8F','#9C7BE0','#5EC8FF','#E8505B'][i],sc:k,r:i%2?3:-3});});return s;},
+   title:{t:'HOW A SNEEZE HAPPENS',at:.2}}),
+ point1:SCN({bg:'plum',items:[{ic:'nose',at:.1,x:.5,y:.45,s:.9},{ic:'ear',at:'ears',x:.15,y:.4,s:.6},{ic:'warn',at:'always',x:.85,y:.4,s:.6}],
+   title:{t:'PRESSURE HAS NOWHERE TO GO',at:.1,fill:'#FF8A8A'},sub:{t:'EARS • SINUSES • THROAT',at:'ears',bg:'#E5383B'},bot:{t:'EXPERTS: JUST LET IT OUT',at:'experts',bg:'#3BB273'}}),
+ sil_point1:SCN({bg:'sky',items:[{ic:'tissue',at:.6,x:.3,y:.5,s:.9},{ic:'check',at:1.6,x:.3,y:.2,s:.5},{ic:'handIc',at:2.4,x:.72,y:.5,s:.6},{ic:'x',at:3,x:.72,y:.5,s:.6}],
+   title:{t:'SNEEZE INTO A TISSUE OR ELBOW',at:.2},card:{lines:['Not into your hands,','and don\'t pinch it shut'],at:5}}),
+ point2:SCN({bg:'brown',items:[{ic:'nose',at:'pinching',x:.25,y:.45,s:.7},{ic:'burst',at:'tore',x:.5,y:.4,s:.6},{ic:'hospital',at:'hospital',x:.78,y:.45,s:.7}],
+   title:{t:'A REAL HOSPITAL CASE',at:.1,fill:'#FF8A8A'},sub:{t:'TORE HIS THROAT',at:'tore',bg:'#E5383B'},bot:{t:'VERY RARE, BUT REAL',at:'rare'},src:'Source: Yang et al., BMJ Case Reports (2018)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'tissue',at:.6,x:.5,y:.5,s:1}],extra:(t,t0)=>t>t0+1.5?bigText('ACHOO!',PX(.5),PY(.15),110,{fill:'#E8505B',sw:12}):'',
+   title:{t:'BEST MOVE: LET IT OUT',at:.2},card:{lines:['A sneeze is powerful.','Don\'t trap it inside.'],at:IS_SHORT?.3:3}}),
+ twist:SCN({bg:'night',chapter:['PLOT TWIST!'],chapterEnd:'you',items:[{ic:'moon',at:'sleep',x:.25,y:.35,s:.7},{ic:'bed',at:'asleep',x:.6,y:.6,s:1},{ic:'eye',at:'eyes',x:.8,y:.3,s:.5}],
+   sub:{t:'NO SNEEZES IN YOUR SLEEP',at:'sleep',bg:'#9C7BE0'},bot:{t:'EYES CAN\'T POP OUT = MYTH',at:'myth',bg:'#3BB273'}}),
+ sil_twist:CHECKS({title:'SNEEZE SMART',items:['DON\'T HOLD IT IN','USE YOUR ELBOW','WASH YOUR HANDS','SICK? STAY HOME']}),
+ cta:VSCTA({L:'LOUD SNEEZER',R:'TINY SNEEZER',icL:'burst',icR:'tissue',cl:'#E8505B',cr:'#5EC8FF',atL:'loud',atR:'tiny',atV:'or',sL:.6,sR:.5,title:'WHICH ONE ARE YOU?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','HELD IN EVERY','SNEEZE?']);

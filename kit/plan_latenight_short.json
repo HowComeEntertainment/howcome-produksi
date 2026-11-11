@@ -1,0 +1,43 @@
+{
+ "id": "latenight",
+ "SC": "latenight_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 6.69
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 6.69,
+   "t1": 21.76
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 21.76,
+   "t1": 28.966
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 28.966,
+   "t1": 43.466
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 43.466,
+   "t1": 50.196
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.196,
+   "t1": 55.0
+  }
+ ]
+}

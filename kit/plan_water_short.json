@@ -1,0 +1,43 @@
+{
+ "id": "water",
+ "SC": "water_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 9.81
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 9.81,
+   "t1": 26.74
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 26.74,
+   "t1": 29.26
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 29.26,
+   "t1": 46.68
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 46.68,
+   "t1": 53.32
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 53.32,
+   "t1": 55.0
+  }
+ ]
+}

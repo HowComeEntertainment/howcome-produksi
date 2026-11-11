@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Never Cut Your Nails? =====
+const B={
+ hook:SCN({bg:'sage',items:[{ic:'scissors',at:'snip',x:.3,y:.4,s:.9},{ic:'x',at:'never',x:.3,y:.4,s:.9},{ic:'longnail',at:'claws',x:.72,y:.48,s:.8}],komo:{x:.88,y:1.1,s:isV?.5:.5,expr:'think',expr2:'surprised',at2:'claws'},
+   title:{t:'NEVER CUT YOUR NAILS?',at:'what',fill:'#E8505B'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'finger',at:2.6,x:.5,y:.5,s:1}],extra:(t,t0)=>{const L=Math.max(0,(t-t0-3))*18;return t>t0+3?`<rect x="${PX(.5)-44}" y="${fmt(PY(.5)-212*1-L)}" width="88" height="${fmt(L+20)}" rx="30" fill="#FDE9EC" stroke="${OL}" stroke-width="6"/>`:''},
+   title:{t:'LET THEM GROW...',at:2.5},bot:{t:'FOR YEARS',at:8}}),
+ context:SCN({bg:'sky',items:[{ic:'finger',at:'fingernails',x:.3,y:.5,s:.8},{ic:'calendar',at:'month',x:.72,y:.42,s:.6}],
+   title:{t:'~3.5 MM A MONTH',at:'three',fill:'#E8505B'},sub:{t:'TOENAILS: ~HALF AS FAST',at:'toenails'},bot:{t:'MADE OF KERATIN (LIKE HAIR)',at:'keratin'},src:'Source: Yaemsiri et al., J Eur Acad Dermatol Venereol (2010)'}),
+ sil_context:SCN({bg:'sand',extra:(t,t0)=>{let s='';[1,5,10,30].forEach((y,i)=>{const k=popS(t,t0+.8+i*.8,.4);if(k>0){const h=Math.min(520,y*18+40);s+=`<rect x="${PX(.12+i*.25)-40}" y="${fmt(PY(.85)-h*k)}" width="80" height="${fmt(h*k)}" rx="30" fill="#FDE9EC" stroke="${OL}" stroke-width="6"/>`+bigText(y+' YR',PX(.12+i*.25),PY(.85)+60,44,{sw:7});}});return s;},
+   title:{t:'NAIL LENGTH OVER TIME',at:.2},card:{lines:['~4 cm a year on fingers','if you never cut them'],at:5,y:'top'}}),
+ point1:SCN({bg:'plum',items:[{ic:'phone',at:'typing',x:.2,y:.45,s:.6},{ic:'germ',at:'germs',x:.5,y:.4,s:1},{ic:'handIc',at:'handshake',x:.8,y:.45,s:.6},{ic:'warn',at:'painful',x:.5,y:.15,s:.45}],
+   title:{t:'1 YEAR: +4 CM',at:.1,fill:'#FFE27A'},sub:{t:'GERMS HIDE UNDER NAILS',at:'germs',bg:'#E5383B'},bot:{t:'CUT TOENAILS STRAIGHT ACROSS',at:'straight',bg:'#3BB273'}}),
+ sil_point1:SCN({bg:'sky',items:[{ic:'germ',at:.6,x:.3,y:.4,s:.8},{ic:'germ',at:1,x:.45,y:.55,s:.6},{ic:'soap',at:2.5,x:.75,y:.5,s:.9}],
+   title:{t:'UNDER-NAIL GERM PARTY',at:.2},card:{lines:['Short nails are easier','to keep clean'],at:5}}),
+ point2:SCN({bg:'brown',items:[{ic:'longnail',at:'curl',x:.35,y:.5,s:1},{ic:'trophy',at:'thirty',x:.75,y:.4,s:.6}],extra:(t,t0,t1,T)=>t>T('eight')?bigText('8+ METERS!',PX(.7),PY(.8),90,{fill:'#FFE27A',sw:10}):'',
+   title:{t:'NAILS CURL & TWIST',at:'curl'},bot:{t:'COULDN\'T PICK UP A COIN',at:'coin'},src:'Source: Guinness World Records (Lee Redmond)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'scissors',at:.6,x:.3,y:.45,s:.8},{ic:'finger',at:1.2,x:.7,y:.5,s:.7},{ic:'check',at:2,x:.7,y:.2,s:.5}],
+   title:{t:'TRIM ABOUT EVERY 1-2 WEEKS',at:.2},card:{lines:['Short nails = fewer cracks','and fewer germs'],at:IS_SHORT?.3:4}}),
+ twist:SCN({bg:'night',chapter:['PLOT TWIST!'],chapterEnd:'you\'ve',items:[{ic:'finger',at:'death',x:.3,y:.5,s:.8},{ic:'x',at:'don\'t',x:.3,y:.3,s:.6},{ic:'handIc',at:'dominant',x:.72,y:.48,s:.6}],
+   sub:{t:'MYTH: GROW AFTER DEATH',at:'death',bg:'#E5383B'},bot:{t:'DOMINANT HAND GROWS FASTER',at:'dominant',bg:'#3BB273'}}),
+ sil_twist:CHECKS({title:'NAIL CARE 101',items:['TRIM STRAIGHT ACROSS','KEEP THEM SHORT','DON\'T BITE THEM','WEIRD SPOTS? DOCTOR']}),
+ cta:VSCTA({L:'TEAM SHORT',R:'TEAM LONG',icL:'finger',icR:'longnail',cl:'#3BB273',cr:'#9C7BE0',atL:'short',atR:'long',atV:'or',sL:.5,sR:.45,title:'HOW OFTEN DO YOU CUT?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','NEVER CUT','YOUR NAILS?']);

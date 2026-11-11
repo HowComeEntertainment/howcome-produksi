@@ -1,0 +1,43 @@
+{
+ "id": "blinking",
+ "SC": "blinking_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 6.98
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 6.98,
+   "t1": 23.76
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 23.76,
+   "t1": 27.804
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 27.804,
+   "t1": 46.054
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 46.054,
+   "t1": 52.304
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 52.304,
+   "t1": 55.0
+  }
+ ]
+}

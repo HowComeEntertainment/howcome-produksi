@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Could Never Yawn Again? =====
+const B={
+ hook:SCN({bg:'night',items:[{ic:'mouthYawn',at:'yawn',x:.5,y:.42,s:1}],komo:{x:.85,y:1.1,s:isV?.55:.5,expr:'think',expr2:'surprised',at2:'contagious'},
+   labels:[{t:'CONTAGIOUS!',at:'contagious',x:.5,y:.85,bg:'#9C7BE0'}],title:{t:'NEVER YAWN AGAIN?',at:'what',fill:'#FFE27A'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[...Array(6)].map((_,i)=>({ic:'mouthYawn',at:2.8+i*.8,x:.12+i*.15,y:.4+(i%2)*.2,s:.35})),
+   title:{t:'YAWN... YAWN... YAWN...',at:2.5},bot:{t:'WHY DO WE EVEN YAWN?',at:8}}),
+ context:SCN({bg:'sky',items:[{ic:'baby',at:'babies',x:.25,y:.45,s:.7},{ic:'dog',at:'animals',x:.72,y:.45,s:.7}],
+   title:{t:'EVERYONE YAWNS',at:.1},sub:{t:'~HALF CATCH OTHERS\' YAWNS',at:'half'},bot:{t:'EVEN FISH & BIRDS',at:'fish',bg:'#3BB273'},src:'Source: Provine, Ethology (1986)'}),
+ sil_context:SCN({bg:'sand',items:[{ic:'baby',at:.6,x:.2,y:.45,s:.5},{ic:'dog',at:1.2,x:.5,y:.45,s:.55},{ic:'mouthYawn',at:1.8,x:.8,y:.45,s:.4}],
+   title:{t:'AN ANCIENT REFLEX',at:.2},card:{lines:['Yawning starts in the womb','around 11 weeks'],at:5}}),
+ point1:SCN({bg:'grid',items:[{ic:'lungs',at:'oxygen',x:.3,y:.45,s:.8},{ic:'x',at:'didn\'t',x:.3,y:.45,s:.8},{ic:'bed',at:'sleep',x:.72,y:.55,s:1.1}],
+   title:{t:'MORE OXYGEN? NOPE',at:'oxygen'},sub:{t:'BORED OR TIRED? PARTLY',at:'bored',bg:'#5B6C8F'},bot:{t:'BUT WHY DO YAWNS SPREAD?',at:'spread'},src:'Source: Provine et al., Behav Neural Biol (1987)'}),
+ sil_point1:SCN({bg:'navy',extra:(t,t0)=>{let s='';[['OXYGEN?','#E8505B',1],['BOREDOM?','#F4C542',0],['BRAIN COOLING?','#3BB273',0]].forEach(([x,c,no],i)=>{const k=popS(t,t0+.8+i*1.2,.4);if(k>0)s+=label(x,{x:PX(.5),y:PY(.1+i*.33),size:60,bg:c,fill:i==1?OL:'#fff',sc:k,r:i%2?3:-3});});return s;},
+   title:{t:'3 THEORIES',at:.2}}),
+ point2:SCN({bg:'plum',items:[{ic:'brain',at:'brain',x:.3,y:.42,s:.9},{ic:'snow',at:'cooler',x:.3,y:.15,s:.4},{ic:'thermo',at:'cold',x:.75,y:.45,s:.7}],
+   title:{t:'YAWN = BRAIN COOLER?',at:'brain',fill:'#9FD8F5'},sub:{t:'COLD PACK → FEWER YAWNS',at:'forehead',bg:'#5EC8FF',fill:OL},src:'Source: Gallup & Gallup, Evolutionary Psychology (2007)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'brain',at:.6,x:.35,y:.45,s:.8},{ic:'snow',at:1.4,x:.7,y:.4,s:.6}],
+   title:{t:'THE BRAIN-COOLING IDEA',at:.2},card:{lines:['Still being studied,','but the clues are fun!'],at:IS_SHORT?.3:3}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'contagious',items:[{ic:'heart',at:'connection',x:.5,y:.4,s:.8},{ic:'dog',at:'dogs',x:.8,y:.5,s:.55}],komo:{x:.2,y:1.1,s:isV?.55:.5,expr:'happy',at:'friends'},
+   sub:{t:'FRIENDS & FAMILY > STRANGERS',at:'friends',bg:'#E8505B'},bot:{t:'KIDS: AROUND AGE 4-5',at:'kids',bg:'#3BB273'},src:'Sources: Norscia & Palagi, PLOS ONE (2011); Joly-Mascheroni et al. (2008)'}),
+ sil_twist:CHECKS({title:'YAWN FACTS',items:['IT\'S CONTAGIOUS','MAY COOL THE BRAIN','DOGS CATCH IT TOO','YOU YAWNED, RIGHT?']}),
+ cta:VSCTA({L:'0-1 YAWNS',R:'3+ YAWNS',icL:'check',icR:'mouthYawn',cl:'#3BB273',cr:'#9C7BE0',atL:'many',atR:'yawn',atV:'times',sL:.5,sR:.4,title:'HOW MANY YAWNS?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','COULD NEVER','YAWN AGAIN?']);

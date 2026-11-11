@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Ate Late at Night Every Day? =====
+const B={
+ hook:SCN({bg:'night',items:[{ic:'moon',at:'midnight',x:.2,y:.25,s:.6},{ic:'noodles',at:'noodles',x:.5,y:.5,s:1},{ic:'clock',at:'night',x:.82,y:.25,s:.5}],komo:{x:.85,y:1.1,s:isV?.5:.5,expr:'happy',expr2:'surprised',at2:'what'},
+   title:{t:'BIG MEAL EVERY MIDNIGHT?',at:'what',fill:'#FFE27A'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'clock',at:2.6,x:.3,y:.45,s:.8},{ic:'noodles',at:3.5,x:.72,y:.5,s:.7}],extra:(t,t0)=>t>t0+3?bigText('12:00 AM',PX(.3),PY(.85),70,{fill:'#FFE27A',sw:9}):'',
+   title:{t:'THE MIDNIGHT MEAL',at:2.5},bot:{t:'WHAT DOES YOUR BODY THINK?',at:8}}),
+ context:SCN({bg:'sky',items:[{ic:'clock',at:'clock',x:.3,y:.45,s:.8},{ic:'moon',at:'night',x:.72,y:.4,s:.7},{ic:'sugar',at:'sugar',x:.72,y:.7,s:.6}],
+   title:{t:'YOUR BODY HAS A CLOCK',at:'clock'},sub:{t:'NIGHT = REST & REPAIR MODE',at:'night',bg:'#9C7BE0'},bot:{t:'BIGGER SUGAR SPIKE AT NIGHT',at:'spike'}}),
+ sil_context:SCN({bg:'sand',extra:(t,t0)=>{let s='';const x0=PX(.05),x1=PX(.95),y=PY(.7);s+=`<path d="M${x0},${y}H${x1}" stroke="${OL}" stroke-width="8"/>`;[['8 AM','#F4C542'],['1 PM','#F28C38'],['7 PM','#E8505B'],['12 AM','#5B6C8F']].forEach(([l,c],i)=>{const x=x0+(x1-x0)*(i+.5)/4;const h=[260,240,200,120][i]*popS(t,t0+.8+i*.6,.4);s+=`<rect x="${x-60}" y="${fmt(y-h)}" width="120" height="${fmt(h)}" rx="16" fill="${c}" stroke="${OL}" stroke-width="6"/>`+bigText(l,x,y+60,40,{fill:OL});});return s;},
+   title:{t:'DIGESTION POWER BY TIME',at:.2},card:{lines:['Illustration: your body handles','food better earlier in the day'],at:5,y:'top'}}),
+ point1:SCN({bg:'plum',items:[{ic:'bed',at:'lie',x:.3,y:.6,s:1.2},{ic:'fire',at:'heartburn',x:.72,y:.42,s:.7},{ic:'clock',at:'hours',x:.72,y:.42,s:.6}],
+   title:{t:'LIE DOWN = ACID CREEPS UP',at:'lie',fill:'#FF8A8A'},sub:{t:'HEARTBURN',at:'heartburn',bg:'#E5383B'},bot:{t:'WORSE SLEEP TOO',at:'worse'}}),
+ sil_point1:SCN({bg:'sky',items:[{ic:'noodles',at:.6,x:.2,y:.5,s:.6},{ic:'clock',at:1.4,x:.5,y:.45,s:.6},{ic:'bed',at:2.2,x:.8,y:.6,s:1}],extra:(t,t0)=>t>t0+3?bigText('2-3 HOURS',PX(.5),PY(.85),70,{fill:'#3BB273',sw:9}):'',
+   title:{t:'LEAVE A GAP BEFORE BED',at:.2}}),
+ point2:SCN({bg:'brown',items:[{ic:'clock',at:'later',x:.25,y:.42,s:.7},{ic:'brain',at:'hungrier',x:.72,y:.42,s:.75},{ic:'fire',at:'burned',x:.5,y:.75,s:.4}],
+   title:{t:'SAME FOOD, LATER TIME',at:.1,fill:'#FFE27A'},sub:{t:'HUNGRIER + HUNGER HORMONES CHANGE',at:'hungrier',bg:'#E5383B'},bot:{t:'BURNED A BIT FEWER CALORIES',at:'burned'},src:'Source: Vujović et al., Cell Metabolism (2022)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'clock',at:.6,x:.3,y:.45,s:.7},{ic:'check',at:1.6,x:.3,y:.15,s:.4},{ic:'moon',at:2.2,x:.72,y:.45,s:.6}],
+   title:{t:'TIMING MATTERS',at:.2},card:{lines:['Try eating your biggest meal','earlier in the day'],at:IS_SHORT?.3:3}}),
+ twist:SCN({bg:'night',chapter:['PLOT TWIST!'],chapterEnd:'late',items:[{ic:'yogurt',at:'yogurt',x:.28,y:.45,s:.8},{ic:'pizza',at:'pizza',x:.72,y:.45,s:.8}],extra:(t,t0,t1,T)=>t>T('pizza')?bigText('≠',PX(.5),PY(.48),140,{fill:'#FFE27A',sw:10}):'',
+   sub:{t:'WHAT & HOW MUCH MATTER MOST',at:'matter',bg:'#3BB273'},bot:{t:'NIGHT SHIFT? SMALLER, LIGHTER MEALS',at:'shifts',bg:'#5B6C8F'}}),
+ sil_twist:CHECKS({title:'NIGHT EATING TIPS',items:['SMALL & LIGHT','2-3 H BEFORE BED','SKIP SPICY & GREASY','BIG MEALS EARLIER']}),
+ cta:VSCTA({L:'TEAM LATE SNACK',R:'KITCHEN CLOSED',icL:'noodles',icR:'moon',cl:'#F28C38',cr:'#2B3350',atL:'snack',atR:'closed',atV:'or',sL:.5,sR:.6,title:'MIDNIGHT SNACKER?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU ATE','LATE AT NIGHT','EVERY DAY?']);

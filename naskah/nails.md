@@ -1,0 +1,43 @@
+# What If You Never Cut Your Nails?
+
+Total: 1691 characters incl. tags (max 1800). YouTube = full narration + silent scenes (144 s). Short = SHORT blocks cut to 55 s.
+
+## hook (SHORT + YT)
+
+[excited] Snip, snip. Everyone cuts their nails. [curious] But what if you never cut them again? Not even once? [laughs] Your fingers would look like claws.
+
+## context (YT only)
+
+Your fingernails grow about three and a half millimeters every month. Toenails are slower, about half that speed. It doesn't sound like much, until you add up the years. They grow faster in summer, and faster when you're young. And they're made of keratin, the same tough protein as your hair.
+
+## point1 (YT only)
+
+After one year, your fingernails would be around four centimeters longer. Typing gets hard. Buttons get tricky. And under long nails, dirt and germs have a lot more places to hide. [sighs] So every handshake gets a little riskier. Long toenails are even worse. They press into your shoes, and can grow into the skin, which is painful and can get infected. That's why doctors say to cut toenails straight across, not round.
+
+## point2 (SHORT + YT)
+
+[surprised] Keep going for years, and nails don't just grow straight. They start to curl and twist. One woman grew her nails for almost thirty years, and together they reached over eight meters. She couldn't do simple things like pick up a coin. Super long nails also get weaker as they grow, so they can crack or break off, sometimes painfully.
+
+## twist (SHORT + YT)
+
+[excited] Plot twist! You've probably heard nails keep growing after death. They don't. [laughs] The skin just dries out and pulls back, so nails look longer. And here's a bonus: the nails on your dominant hand often grow a bit faster. Nails can also show hints about your health, like lines or spots, so doctors sometimes look at them.
+
+## cta (SHORT + YT)
+
+So how often do you cut your nails? Team short nails or team long nails? Tell me in the comments, and subscribe for more HowCome!
+
+## Full narration
+
+```
+[excited] Snip, snip. Everyone cuts their nails. [curious] But what if you never cut them again? Not even once? [laughs] Your fingers would look like claws.
+
+Your fingernails grow about three and a half millimeters every month. Toenails are slower, about half that speed. It doesn't sound like much, until you add up the years. They grow faster in summer, and faster when you're young. And they're made of keratin, the same tough protein as your hair.
+
+After one year, your fingernails would be around four centimeters longer. Typing gets hard. Buttons get tricky. And under long nails, dirt and germs have a lot more places to hide. [sighs] So every handshake gets a little riskier. Long toenails are even worse. They press into your shoes, and can grow into the skin, which is painful and can get infected. That's why doctors say to cut toenails straight across, not round.
+
+[surprised] Keep going for years, and nails don't just grow straight. They start to curl and twist. One woman grew her nails for almost thirty years, and together they reached over eight meters. She couldn't do simple things like pick up a coin. Super long nails also get weaker as they grow, so they can crack or break off, sometimes painfully.
+
+[excited] Plot twist! You've probably heard nails keep growing after death. They don't. [laughs] The skin just dries out and pulls back, so nails look longer. And here's a bonus: the nails on your dominant hand often grow a bit faster. Nails can also show hints about your health, like lines or spots, so doctors sometimes look at them.
+
+So how often do you cut your nails? Team short nails or team long nails? Tell me in the comments, and subscribe for more HowCome!
+```

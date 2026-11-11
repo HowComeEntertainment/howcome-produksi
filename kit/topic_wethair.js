@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Slept With Wet Hair Every Night? =====
+const B={
+ hook:SCN({bg:'night',items:[{ic:'drop',at:'shower',x:.25,y:.35,s:.6},{ic:'wetpillow',at:'bed',x:.55,y:.5,s:.9},{ic:'virus',at:'cold',x:.82,y:.3,s:.5}],komo:{x:.15,y:1.1,s:isV?.55:.5,expr:'think',expr2:'surprised',at2:'what'},
+   sub:{t:'"YOU\'LL CATCH A COLD!"',at:'cold',bg:'#5B6C8F'},title:{t:'WET HAIR EVERY NIGHT?',at:'what',fill:'#FFE27A'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'wetpillow',at:2.6,x:.5,y:.5,s:1}],extra:(t,t0)=>t>t0+3?bigText('NIGHT '+Math.min(30,Math.floor((t-t0-3)*2.5)+1),PX(.5),PY(.15),80,{fill:'#FFE27A',sw:9}):'',
+   title:{t:'MOM\'S WARNING: TRUE?',at:2.5},bot:{t:'LET\'S TEST THE MYTH',at:8}}),
+ context:SCN({bg:'sky',items:[{ic:'virus',at:'viruses',x:.3,y:.45,s:1},{ic:'drop',at:'wet',x:.72,y:.45,s:.8},{ic:'x',at:'can\'t',x:.72,y:.45,s:.7}],
+   title:{t:'COLDS = VIRUSES',at:'viruses',fill:'#E8505B'},sub:{t:'NO VIRUS, NO COLD',at:'no'},bot:{t:'SPREAD BY PEOPLE & SURFACES',at:'spread'}}),
+ sil_context:SCN({bg:'sand',items:[{ic:'handIc',at:.6,x:.2,y:.45,s:.6},{ic:'virus',at:1.2,x:.5,y:.4,s:.7},{ic:'nose',at:1.8,x:.8,y:.45,s:.6}],extra:(t,t0)=>t>t0+2.4?bigText('→',PX(.35),PY(.45),100,{fill:OL})+bigText('→',PX(.65),PY(.45),100,{fill:OL}):'',
+   title:{t:'HOW YOU REALLY CATCH A COLD',at:.2},card:{lines:['Hands → face → nose.','Wash your hands!'],at:5}}),
+ point1:SCN({bg:'plum',items:[{ic:'wetpillow',at:'pillow',x:.5,y:.55,s:.9},{ic:'fungus',at:'fungi',x:.25,y:.3,s:.6},{ic:'fungus',at:'several',x:.72,y:.28,s:.5},{ic:'nose',at:'sneezing',x:.88,y:.55,s:.4}],
+   title:{t:'DAMP PILLOW = FUNGUS HOTEL',at:'pillow',fill:'#FF8A8A'},sub:{t:'SEVERAL KINDS PER PILLOW',at:'several',bg:'#9C7BE0'},bot:{t:'WASH PILLOWCASES OFTEN',at:'washing',bg:'#3BB273'},src:'Source: Woodcock et al., Allergy (2006)'}),
+ sil_point1:SCN({bg:'sky',items:[{ic:'pillow',at:.6,x:.3,y:.5,s:.8},{ic:'check',at:1.6,x:.3,y:.25,s:.5},{ic:'wetpillow',at:2.2,x:.72,y:.5,s:.8},{ic:'x',at:2.8,x:.72,y:.25,s:.5}],
+   title:{t:'DRY PILLOW, HAPPY PILLOW',at:.2},card:{lines:['Fungi love warm, damp, dark places'],at:5}}),
+ point2:SCN({bg:'brown',items:[{ic:'drop',at:'wet',x:.25,y:.42,s:.7},{ic:'pillow',at:'rubbing',x:.6,y:.55,s:.7},{ic:'burst',at:'breakage',x:.8,y:.3,s:.45}],
+   title:{t:'WET HAIR = WEAKER HAIR',at:.1,fill:'#FFE27A'},sub:{t:'FRIZZ & BREAKAGE',at:'frizz',bg:'#E5383B'},bot:{t:'DRY IT A BIT FIRST',at:'stylists',bg:'#3BB273'}}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'drop',at:.6,x:.3,y:.45,s:.7},{ic:'x',at:1.2,x:.3,y:.45,s:.6},{ic:'pillow',at:1.8,x:.7,y:.5,s:.7}],
+   title:{t:'HAIR SAVER TIPS',at:.2},card:{lines:['Towel or blow dry a bit,','silky pillowcase, loose style'],at:IS_SHORT?.3:3}}),
+ twist:SCN({bg:'night',chapter:['PLOT TWIST!'],chapterEnd:'getting',items:[{ic:'snow',at:'chilly',x:.25,y:.4,s:.8},{ic:'thermo',at:'cold',x:.5,y:.45,s:.7},{ic:'virus',at:'virus',x:.78,y:.4,s:.5}],
+   sub:{t:'CHILLED FEET → MORE COLD SYMPTOMS',at:'feet',bg:'#5EC8FF',fill:OL},bot:{t:'MAY WAKE A HIDDEN VIRUS',at:'wake',bg:'#9C7BE0'},src:'Source: Johnson & Eccles, Family Practice (2005)'}),
+ sil_twist:CHECKS({title:'BEDTIME HAIR RULES',items:['DRY HAIR A LITTLE','WASH PILLOWCASES','AIR OUT YOUR PILLOW','STAY WARM']}),
+ cta:VSCTA({L:'TEAM WET HAIR',R:'TEAM BLOW DRY',icL:'drop',icR:'fire',cl:'#5EC8FF',cr:'#F28C38',atL:'wet',atR:'dry',atV:'or',sL:.6,sR:.5,title:'WHICH TEAM?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU SLEPT','WITH WET HAIR','EVERY NIGHT?']);

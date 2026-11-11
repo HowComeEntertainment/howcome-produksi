@@ -10,17 +10,24 @@ def req(url,data=None):
     return urllib.request.urlopen(r,timeout=600).read()
 sub=lambda: json.loads(req('https://api.elevenlabs.io/v1/user/subscription'))
 s0=sub()
-audio=req(f'https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_128',{'text':text,'model_id':MODEL})
-open(f'{root}/audio/{id_}.mp3','wb').write(audio)
+import urllib.error
+try:
+    audio=req(f'https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_128',{'text':text,'model_id':MODEL})
+except urllib.error.HTTPError as e:
+    if e.code<500: raise
+    audio=None; print('server error',e.code,'- looking for the generation in history (no retry, to avoid paying twice)')
+
 import glob
 known={open(f).read().strip() for f in glob.glob(f'{root}/audio/*.history_id')}
 h=None
-for _ in range(30):  # the newest history item that is not already assigned to another narration
+for _ in range(60):  # the newest history item that is not already assigned to another narration
     for it in json.loads(req('https://api.elevenlabs.io/v1/history?page_size=5'))['history']:
         if it['history_item_id'] not in known: h=it; break
     if h: break
     time.sleep(2)
 used=h['character_count_change_to']-h['character_count_change_from']
+if audio is None: audio=req(f"https://api.elevenlabs.io/v1/history/{h['history_item_id']}/audio")
+open(f'{root}/audio/{id_}.mp3','wb').write(audio)
 open(f'{root}/audio/{id_}.history_id','w').write(h['history_item_id'])
 prev=0
 lg=f'{root}/audio/usage_log.md'

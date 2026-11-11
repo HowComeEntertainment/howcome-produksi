@@ -77,9 +77,12 @@ build(f'{ID}_yt', items, YT)
 
 # ---- Short: drop the weakest YT-only blocks until it fits, pad with short silent beats ----
 keep = names[:]
-for drop in ['context', 'metab', 'point1']:
+yt_only = [b['name'] for b in spans if b['dest'] != 'short']
+for drop in ['context', 'metab'] + [n for n in yt_only if n not in ('context', 'metab')]:
     if sum(b['b'] - b['a'] for b in spans if b['name'] in keep) <= SH - 0.3: break
     if drop in keep: keep.remove(drop)
+if sum(b['b'] - b['a'] for b in spans if b['name'] in keep) > SH:
+    raise SystemExit(f'SHORT blocks are longer than {SH}s; shorten the SHORT blocks in the script')
 sl = sum(b['b'] - b['a'] for b in spans if b['name'] in keep)
 pad = max(0.0, SH - sl)
 items = []

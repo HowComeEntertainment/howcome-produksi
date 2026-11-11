@@ -1,0 +1,79 @@
+{
+ "id": "wethair",
+ "SC": "wethair_yt",
+ "total": 144.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 7.91
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 7.91,
+   "t1": 17.334
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 17.334,
+   "t1": 34.674
+  },
+  {
+   "name": "sil_context",
+   "kind": "silent",
+   "t0": 34.674,
+   "t1": 44.098
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 44.098,
+   "t1": 70.118
+  },
+  {
+   "name": "sil_point1",
+   "kind": "silent",
+   "t0": 70.118,
+   "t1": 79.542
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 79.542,
+   "t1": 96.112
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 96.112,
+   "t1": 105.536
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 105.536,
+   "t1": 123.166
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 123.166,
+   "t1": 132.59
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 132.59,
+   "t1": 138.0
+  },
+  {
+   "name": "sil_outro",
+   "kind": "silent",
+   "t0": 138.0,
+   "t1": 144.0
+  }
+ ]
+}

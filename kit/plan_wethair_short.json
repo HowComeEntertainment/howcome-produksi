@@ -1,0 +1,43 @@
+{
+ "id": "wethair",
+ "SC": "wethair_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 7.91
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 7.91,
+   "t1": 24.48
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 24.48,
+   "t1": 28.968
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 28.968,
+   "t1": 46.598
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 46.598,
+   "t1": 52.008
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 52.008,
+   "t1": 55.0
+  }
+ ]
+}

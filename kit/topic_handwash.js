@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Never Washed Your Hands After the Toilet? =====
+const B={
+ hook:SCN({bg:'sky',items:[{ic:'toilet',at:'bathroom',x:.25,y:.45,s:.7},{ic:'handIc',at:'hands',x:.7,y:.45,s:.7},{ic:'germ',at:'hands',x:.8,y:.25,s:.5}],komo:{x:.88,y:1.1,s:isV?.5:.5,expr:'surprised'},
+   title:{t:'NEVER WASH AGAIN?',at:'what',fill:'#E8505B'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'handIc',at:2.6,x:.5,y:.45,s:.9},...[...Array(6)].map((_,i)=>({ic:'germ',at:3.2+i*.6,x:.3+(i%3)*.2,y:.25+Math.floor(i/3)*.4,s:.4}))],
+   title:{t:'WHAT\'S ON YOUR HANDS?',at:2.5},bot:{t:'LET\'S FOLLOW THE GERMS',at:8}}),
+ context:SCN({bg:'sand',extra:(t,t0,t1,T)=>{let s='';[['5%','WASHED WELL','#3BB273','five'],['~33%','NO SOAP','#F4C542','third'],['~10%','NO WASH','#E8505B','ten']].forEach(([n,l,c,w],i)=>{const k=popS(t,T(w),.45);if(k>0)s+=g(tr(PX(.17+i*.33),PY(.45),k),`<circle r="140" fill="${c}" stroke="${OL}" stroke-width="8"/><text y="20" text-anchor="middle" font-family="B2" font-weight="800" font-size="76" fill="#fff" stroke="${OL}" stroke-width="7" paint-order="stroke">${n}</text>`)+bigText(l,PX(.17+i*.33),PY(.45)+210,40,{fill:OL});});return s;},
+   title:{t:'SECRETLY WATCHED',at:'secretly'},src:'Source: Borchgrevink et al., J Environ Health (2013)'}),
+ sil_context:SCN({bg:'sky',items:[{ic:'drop',at:.6,x:.3,y:.45,s:.7},{ic:'x',at:1.4,x:.3,y:.45,s:.6},{ic:'soap',at:2,x:.72,y:.48,s:.8},{ic:'check',at:2.8,x:.72,y:.2,s:.5}],
+   title:{t:'WATER ONLY ISN\'T ENOUGH',at:.2},card:{lines:['Soap + scrubbing is','what really removes germs'],at:5}}),
+ point1:SCN({bg:'plum',items:[{ic:'handIc',at:.1,x:.15,y:.45,s:.5},{ic:'door',at:'door',x:.38,y:.45,s:.45},{ic:'phone',at:'phone',x:.6,y:.45,s:.45},{ic:'chips',at:'snacks',x:.82,y:.45,s:.45},{ic:'germ',at:'germs',x:.5,y:.15,s:.6}],
+   title:{t:'GERMS RIDE ON YOUR HANDS',at:.1,fill:'#FF8A8A'},sub:{t:'STOMACH BUGS & DIARRHEA',at:'stomach',bg:'#E5383B'},bot:{t:'ONE PERSON → WHOLE OFFICE',at:'office'}}),
+ sil_point1:SCN({bg:'navy',extra:(t,t0)=>{let s='';for(let i=0;i<9;i++){const k=popS(t,t0+.8+i*.5,.4);if(k<=0)continue;const x=PX(.1+(i%5)*.2),y=PY(.2+Math.floor(i/5)*.5);s+=`<g transform="${tr(x,y,k*.55)}"><circle cy="-60" r="50" fill="#F6D2B8" stroke="${OL}" stroke-width="6"/><rect x="-55" y="-10" width="110" height="130" rx="40" fill="${i<1?'#E8505B':i<4?'#F4C542':'#CDD6DE'}" stroke="${OL}" stroke-width="6"/></g>`;}return s;},
+   title:{t:'HOW ONE HAND SPREADS IT',at:.2},card:{lines:['Unwashed hands pass germs','from person to person'],at:6}}),
+ point2:SCN({bg:'sky',items:[{ic:'soap',at:'soap',x:.3,y:.48,s:1},{ic:'clock',at:'twenty',x:.75,y:.45,s:.6}],extra:(t,t0,t1,T)=>t>T('quarter')?bigText('-23% TO -40%',PX(.5),PY(.88),76,{fill:'#3BB273',sw:9}):'',
+   title:{t:'SOAP = HUGE DIFFERENCE',at:.1},sub:{t:'FEWER DIARRHEA ILLNESSES',at:'cut',bg:'#3BB273'},bot:{t:'SOAP BREAKS THE GERM GLUE',at:'breaks',bg:'#5EC8FF',fill:OL},src:'Source: CDC handwashing facts; Ejemot-Nwadiaro et al., Cochrane (2021)'}),
+ sil_point2:SCN({bg:'sky',extra:(t,t0)=>{let s='';['WET','SOAP','SCRUB 20 S','RINSE','DRY'].forEach((x,i)=>{const k=popS(t,t0+.6+i*.7,.4);if(k>0)s+=label(x,{x:PX(.1+i*.2),y:PY(.45),size:isV?38:50,bg:['#5EC8FF','#9FD8F5','#3BB273','#5EC8FF','#F4C542'][i],fill:OL,sc:k,r:i%2?3:-3});});return s;},
+   title:{t:'THE 5 STEPS',at:.2},card:{lines:['About 20 seconds =','singing "Happy Birthday" twice'],at:IS_SHORT?.4:4}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'how',items:[{ic:'dryer',at:'dryers',x:.3,y:.42,s:.8},{ic:'germ',at:'bacteria',x:.3,y:.75,s:.4},{ic:'towel',at:'towels',x:.72,y:.45,s:.7},{ic:'check',at:'towel',x:.72,y:.15,s:.45}],
+   sub:{t:'JET DRYERS SPREAD MORE GERMS',at:'jet',bg:'#E5383B'},bot:{t:'HOT WATER ISN\'T NEEDED',at:'hot',bg:'#5B6C8F'},src:'Source: Best et al., J Hosp Infect (2014)'}),
+ sil_twist:CHECKS({title:'CLEAN HANDS RULES',items:['ALWAYS USE SOAP','SCRUB 20 SECONDS','DRY WITH A TOWEL','BEFORE EATING TOO']}),
+ cta:VSCTA({L:'ALWAYS WASH',R:'SOMETIMES...',icL:'soap',icR:'germ',cl:'#3BB273',cr:'#E8505B',atL:'always',atR:'wash',atV:'honest',sL:.6,sR:.9,title:'BE HONEST!'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','NEVER WASHED','YOUR HANDS?']);

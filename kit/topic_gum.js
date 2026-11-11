@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Swallowed Your Gum Every Day? =====
+const B={
+ hook:SCN({bg:'sky',items:[{ic:'gum',at:'gulp',x:.5,y:.4,s:1},{ic:'stomach',at:'stomach',x:.5,y:.55,s:.7,until:'what'},{ic:'calendar',at:'seven',x:.8,y:.3,s:.5}],komo:{x:.15,y:1.1,s:isV?.55:.5,expr:'surprised'},
+   sub:{t:'"STAYS 7 YEARS!"',at:'seven',bg:'#5B6C8F'},title:{t:'SWALLOW GUM EVERY DAY?',at:'what',fill:'#E8505B'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'stomach',at:2.6,x:.5,y:.45,s:1},{ic:'gum',at:3.5,x:.45,y:.5,s:.3},{ic:'gum',at:4.5,x:.55,y:.45,s:.3},{ic:'gum',at:5.5,x:.5,y:.58,s:.3}],
+   title:{t:'A 7-YEAR GUM MUSEUM?',at:2.5},bot:{t:'MYTH OR FACT?',at:8}}),
+ context:SCN({bg:'sand',items:[{ic:'gum',at:'base',x:.3,y:.45,s:.9},{ic:'stomach',at:'stomach',x:.72,y:.45,s:.8},{ic:'x',at:'can\'t',x:.72,y:.3,s:.5}],
+   title:{t:'GUM BASE = CAN\'T DIGEST',at:'base'},sub:{t:'FLAVOR: ABSORBED',at:'flavor',bg:'#3BB273'},bot:{t:'RUBBERY BASE STAYS RUBBERY',at:'rubbery'}}),
+ sil_context:SCN({bg:'sky',extra:(t,t0)=>{let s='';[['FLAVOR','#3BB273'],['SWEETENER','#5EC8FF'],['GUM BASE','#E8505B']].forEach(([x,c],i)=>{const k=popS(t,t0+.8+i*.9,.4);if(k>0)s+=label(x,{x:PX(.5),y:PY(.1+i*.35),size:60,bg:c,sc:k,r:i%2?3:-3});});return s;},
+   title:{t:'WHAT\'S IN GUM?',at:.2},card:{lines:['Only the gum base','is the indigestible part'],at:5}}),
+ point1:SCN({bg:'grid',extra:(t,t0)=>{let s=`<rect x="${PX(.02)}" y="${PY(.5)-40}" width="${PX(.98)-PX(.02)}" height="80" rx="40" fill="#F29AA8" stroke="${OL}" stroke-width="8"/>`;['gum','corn','gum','corn'].forEach((ic,i)=>{const x=PX(((t*.12+i*.25)%1));s+=g(tr(x,PY(.5),.3),IC[ic](t));});return s;},
+   title:{t:'YOUR GUT = CONVEYOR BELT',at:.1},sub:{t:'PUSHES EVERYTHING FORWARD',at:'muscles'},bot:{t:'LIKE CORN SKINS',at:'corn',bg:'#F4C542',fill:OL}}),
+ sil_point1:SCN({bg:'navy',items:[{ic:'gum',at:.6,x:.2,y:.45,s:.6},{ic:'stomach',at:1.4,x:.5,y:.45,s:.7},{ic:'check',at:2.4,x:.8,y:.45,s:.7}],extra:(t,t0)=>t>t0+2?bigText('→',PX(.35),PY(.48),110,{fill:'#FFE27A'})+bigText('→',PX(.65),PY(.48),110,{fill:'#FFE27A'}):'',
+   title:{t:'IN → THROUGH → OUT',at:.2},card:{lines:['Your body doesn\'t need to digest','something to get rid of it'],at:5}}),
+ point2:SCN({bg:'brown',items:[{ic:'calendar',at:'days',x:.3,y:.45,s:.8},{ic:'x',at:'seven',x:.3,y:.45,s:.8},{ic:'warn',at:'rare',x:.75,y:.45,s:.7}],extra:(t,t0,t1,T)=>t>T('days')?bigText('A FEW DAYS',PX(.3),PY(.85),70,{fill:'#7FD18B',sw:9}):'',
+   title:{t:'THE TRUTH: A FEW DAYS',at:'truth',fill:'#FFE27A'},bot:{t:'RARE: KIDS SWALLOWING TONS',at:'kids'},src:'Source: Milov et al., Pediatrics (1998)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'gum',at:.6,x:.3,y:.45,s:.9},{ic:'tissue',at:1.4,x:.72,y:.5,s:.8},{ic:'check',at:2.2,x:.72,y:.2,s:.5}],
+   title:{t:'BEST HABIT: SPIT IT OUT',at:.2},card:{lines:['Gum is for chewing,','not for eating'],at:IS_SHORT?.3:3}}),
+ twist:SCN({bg:'night',chapter:['PLOT TWIST!'],chapterEnd:'people',items:[{ic:'gum',at:'tar',x:.25,y:.45,s:.8},{ic:'dna',at:'dna',x:.7,y:.45,s:.8}],extra:(t,t0,t1,T)=>t>T('thousand')?bigText('5,700 YEARS OLD',PX(.5),PY(.9),70,{fill:'#FFE27A',sw:9}):'',
+   sub:{t:'FULL DNA FROM OLD "GUM"!',at:'dna',bg:'#9C7BE0'},bot:{t:'+ HAZELNUT & DUCK',at:'hazelnut',bg:'#3BB273'},src:'Source: Jensen et al., Nature Communications (2019)'}),
+ sil_twist:CHECKS({title:'GUM FACTS',items:['ONE PIECE = OK','NOT 7 YEARS','DON\'T SWALLOW LOTS','KIDS: SPIT IT OUT']}),
+ cta:VSCTA({L:'TEAM SWALLOW',R:'TEAM SPIT',icL:'stomach',icR:'tissue',cl:'#F49AC2',cr:'#5EC8FF',atL:'swallow',atR:'spit',atV:'or',sL:.45,sR:.5,title:'WHAT DO YOU DO?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','SWALLOWED YOUR','GUM EVERY DAY?']);

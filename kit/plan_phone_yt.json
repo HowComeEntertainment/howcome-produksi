@@ -1,0 +1,79 @@
+{
+ "id": "phone",
+ "SC": "phone_yt",
+ "total": 144.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 12.52
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 12.52,
+   "t1": 20.808
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 20.808,
+   "t1": 37.138
+  },
+  {
+   "name": "sil_context",
+   "kind": "silent",
+   "t0": 37.138,
+   "t1": 45.426
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 45.426,
+   "t1": 71.856
+  },
+  {
+   "name": "sil_point1",
+   "kind": "silent",
+   "t0": 71.856,
+   "t1": 80.144
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 80.144,
+   "t1": 98.084
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 98.084,
+   "t1": 106.372
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 106.372,
+   "t1": 122.752
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 122.752,
+   "t1": 131.04
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 131.04,
+   "t1": 138.0
+  },
+  {
+   "name": "sil_outro",
+   "kind": "silent",
+   "t0": 138.0,
+   "t1": 144.0
+  }
+ ]
+}

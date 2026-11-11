@@ -1,0 +1,43 @@
+{
+ "id": "sneeze",
+ "SC": "sneeze_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 7.64
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 7.64,
+   "t1": 22.69
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 22.69,
+   "t1": 30.88
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 30.88,
+   "t1": 43.98
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 43.98,
+   "t1": 49.54
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 49.54,
+   "t1": 55.0
+  }
+ ]
+}

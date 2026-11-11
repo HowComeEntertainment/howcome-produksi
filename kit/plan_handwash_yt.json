@@ -1,0 +1,79 @@
+{
+ "id": "handwash",
+ "SC": "handwash_yt",
+ "total": 144.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 8.09
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 8.09,
+   "t1": 19.162
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 19.162,
+   "t1": 35.142
+  },
+  {
+   "name": "sil_context",
+   "kind": "silent",
+   "t0": 35.142,
+   "t1": 46.214
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 46.214,
+   "t1": 67.414
+  },
+  {
+   "name": "sil_point1",
+   "kind": "silent",
+   "t0": 67.414,
+   "t1": 78.486
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 78.486,
+   "t1": 94.886
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 94.886,
+   "t1": 105.958
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 105.958,
+   "t1": 122.028
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 122.028,
+   "t1": 133.1
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 133.1,
+   "t1": 138.0
+  },
+  {
+   "name": "sil_outro",
+   "kind": "silent",
+   "t0": 138.0,
+   "t1": 144.0
+  }
+ ]
+}
