@@ -1,6 +1,6 @@
 # Narasi + audio tag
 
-Batas: maks 1000 karakter per file audio (termasuk tag). Short = 1 file. YouTube = maks 1500 karakter total, dibagi 2 file dan digabung otomatis saat render. Tag di [kurung] adalah instruksi untuk TTS (tidak dibaca).
+Short = 1 file audio, maks 1000 karakter. YouTube = 1 file audio, maks 1500 karakter. Batas sudah termasuk tag. Tag di [kurung] adalah instruksi untuk TTS (tidak dibaca).
 
 ## sleep4h_short.mp3 (960 karakter)
 
@@ -20,7 +20,7 @@ Batas: maks 1000 karakter per file audio (termasuk tag). Short = 1 file. YouTube
 [playful] So, team four hours or team eight hours? Comment below, and send this to your 3 AM friend!
 ```
 
-## sleep4h_yt_1.mp3 (664 karakter)
+## sleep4h_yt.mp3 (1472 karakter)
 
 ```
 [excited] Four hours of sleep. [slowly] Every. Single. Night. [playful] Some people brag about it like a superpower. CEOs, students, gamers. [pause] So how come scientists keep finding the opposite?
@@ -30,11 +30,7 @@ While you sleep, your brain runs a cleaning system that washes away the day's wa
 [yawning] Day one, your focus slips. Being awake seventeen to nineteen hours can hurt performance about as much as being [drunken voice] slightly drunk.
 
 In one study, people sleeping four hours a night for two weeks kept getting worse on attention tests. [whispering] And they barely noticed. Their brains were failing in silence.
-```
 
-## sleep4h_yt_2.mp3 (806 karakter)
-
-```
 [excited] Day three, your hunger goes wild. Your "I'm full" hormone drops, and your "feed me" hormone jumps. Hello, pizza.
 
 [sighing] Your mood gets shaky too. After one sleepless night, the brain's emotional alarm reacted about sixty percent stronger. Tiny problems feel huge.
@@ -70,7 +66,7 @@ Weekend sleep-ins? [sighing] They don't fully fix it.
 [playful] Team breakfast or team skip? Comment below, and send this to your coffee-till-noon friend!
 ```
 
-## skipbreakfast_yt_1.mp3 (802 karakter)
+## skipbreakfast_yt.mp3 (1442 karakter)
 
 ```
 [playful] They told you breakfast is the most important meal of the day. [pause] But what if you skipped it for thirty days?
@@ -82,11 +78,7 @@ Weekend sleep-ins? [sighing] They don't fully fix it.
 [excited] But your body adapts. After a couple of weeks, that morning hunger often fades.
 
 "Breakfast kickstarts your metabolism"? [scoffing] When researchers tested it, breakfast didn't change how many calories people burned at rest. Breakfast eaters just moved a bit more in the morning.
-```
 
-## skipbreakfast_yt_2.mp3 (638 karakter)
-
-```
 [playful] And weight? A big BMJ review found breakfast eaters ate about 260 more calories a day, and breakfast didn't help weight loss.
 
 [gasping] But wait. Some studies link skipping breakfast to heart disease. How come? Those studies can't prove cause, and skippers also smoked and drank more.
@@ -116,7 +108,7 @@ The average adult sits about six and a half hours a day. Teens? [gasping] More t
 [playful] Team standing desk or team couch? Comment below!
 ```
 
-## sitallday_yt_1.mp3 (686 karakter)
+## sitallday_yt.mp3 (1412 karakter)
 
 ```
 [bored] Sit for breakfast. [engine starting] Sit in the car. [keyboard typing] Sit at your desk. Sit on the couch and scroll until bedtime. [excited] What happens if you sit all day, every day?
@@ -126,11 +118,7 @@ The average adult sits about six and a half hours a day. Teens? [gasping] More t
 [playful] Your leg muscles are like sugar sponges. When they move, they pull sugar out of your blood. When you sit for hours, they basically [sleepy drowsy voice] go to sleep, and more sugar stays in your blood.
 
 [heartbeat] After just three hours of sitting, blood flow in your leg arteries gets worse. But a five-minute walk every hour prevented it.
-```
 
-## sitallday_yt_2.mp3 (724 karakter)
-
-```
 Your hips tighten, your glutes get lazy, and your back starts complaining. Your head drifts toward the screen. [sighing] Over years, long sitting is linked to heart disease and type two diabetes.
 
 [drum roll] Plot twist! Sitting is NOT the new smoking. [chuckling] Smoking is way worse. A study of over a million people found about an hour of brisk walking a day seemed to cancel out the risk of sitting eight hours.

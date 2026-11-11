@@ -16,9 +16,7 @@
 
 [playful] So, team four hours or team eight hours? Comment below, and send this to your 3 AM friend!
 
-## YOUTUBE (max 1500 characters total incl. tags, 2 audio files, ~85 s)
-
-### sleep4h_yt_1.mp3
+## YOUTUBE (1 audio file, max 1500 characters incl. tags, ~85 s)
 
 [excited] Four hours of sleep. [slowly] Every. Single. Night. [playful] Some people brag about it like a superpower. CEOs, students, gamers. [pause] So how come scientists keep finding the opposite?
 
@@ -27,8 +25,6 @@ While you sleep, your brain runs a cleaning system that washes away the day's wa
 [yawning] Day one, your focus slips. Being awake seventeen to nineteen hours can hurt performance about as much as being [drunken voice] slightly drunk.
 
 In one study, people sleeping four hours a night for two weeks kept getting worse on attention tests. [whispering] And they barely noticed. Their brains were failing in silence.
-
-### sleep4h_yt_2.mp3
 
 [excited] Day three, your hunger goes wild. Your "I'm full" hormone drops, and your "feed me" hormone jumps. Hello, pizza.
 

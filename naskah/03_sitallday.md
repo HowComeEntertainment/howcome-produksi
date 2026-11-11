@@ -16,9 +16,7 @@ The average adult sits about six and a half hours a day. Teens? [gasping] More t
 
 [playful] Team standing desk or team couch? Comment below!
 
-## YOUTUBE (max 1500 characters total incl. tags, 2 audio files, ~85 s)
-
-### sitallday_yt_1.mp3
+## YOUTUBE (1 audio file, max 1500 characters incl. tags, ~85 s)
 
 [bored] Sit for breakfast. [engine starting] Sit in the car. [keyboard typing] Sit at your desk. Sit on the couch and scroll until bedtime. [excited] What happens if you sit all day, every day?
 
@@ -27,8 +25,6 @@ The average adult sits about six and a half hours a day. Teens? [gasping] More t
 [playful] Your leg muscles are like sugar sponges. When they move, they pull sugar out of your blood. When you sit for hours, they basically [sleepy drowsy voice] go to sleep, and more sugar stays in your blood.
 
 [heartbeat] After just three hours of sitting, blood flow in your leg arteries gets worse. But a five-minute walk every hour prevented it.
-
-### sitallday_yt_2.mp3
 
 Your hips tighten, your glutes get lazy, and your back starts complaining. Your head drifts toward the screen. [sighing] Over years, long sitting is linked to heart disease and type two diabetes.
 

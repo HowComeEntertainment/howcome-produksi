@@ -18,9 +18,7 @@
 
 [playful] Team breakfast or team skip? Comment below, and send this to your coffee-till-noon friend!
 
-## YOUTUBE (max 1500 characters total incl. tags, 2 audio files, ~85 s)
-
-### skipbreakfast_yt_1.mp3
+## YOUTUBE (1 audio file, max 1500 characters incl. tags, ~85 s)
 
 [playful] They told you breakfast is the most important meal of the day. [pause] But what if you skipped it for thirty days?
 
@@ -31,8 +29,6 @@
 [excited] But your body adapts. After a couple of weeks, that morning hunger often fades.
 
 "Breakfast kickstarts your metabolism"? [scoffing] When researchers tested it, breakfast didn't change how many calories people burned at rest. Breakfast eaters just moved a bit more in the morning.
-
-### skipbreakfast_yt_2.mp3
 
 [playful] And weight? A big BMJ review found breakfast eaters ate about 260 more calories a day, and breakfast didn't help weight loss.
 
