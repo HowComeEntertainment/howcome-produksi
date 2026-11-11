@@ -14,4 +14,6 @@ Talk to the owner in casual Indonesian. Everything in the videos is in **English
 - Always check a frame sheet before delivering.
 
 ## Hosting
-- Final Shorts: `videos/<id>.mp4`, commit, push to `main`.
+- Final Shorts: `videos/<id>_short.mp4`, YouTube 16:9: `videos/<id>_yt.mp4`. Commit, push to `main`.
+- Watermark `kit/wm.png`: KOMO avatar + "Please Subscribe Me" (locked).
+- Scripts live in `naskah/`.
