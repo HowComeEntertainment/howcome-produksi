@@ -7,3 +7,4 @@ kit/out_*.mp4
 kit/.music_*.wav
 kit/st2/
 kit/sty2/
+kit/t[0-9]*/
