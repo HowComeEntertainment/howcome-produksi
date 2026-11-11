@@ -16,8 +16,7 @@ const W=ASP==='v'?1080:1920, H=ASP==='v'?1920:1080;
 const stage=document.getElementById('stage');stage.style.width=W+'px';stage.style.height=H+'px';
 for(const id of ['world','hud']){const s=document.getElementById(id);s.setAttribute('width',W);s.setAttribute('height',H);}
 const wm=document.getElementById('wm');
-if((Q.get('s')||'').endsWith('_en'))wm.src='wm_en.png'; // versi Inggris: watermark 'Please Follow'
-if(ASP==='v'){wm.style.width='760px';wm.style.left='36px';wm.style.top='165px';}else{wm.style.width='600px';wm.style.left='28px';wm.style.top='24px';}
+if(ASP==='v'){wm.style.width='560px';wm.style.left='36px';wm.style.top='160px';}else{wm.style.width='440px';wm.style.left='28px';wm.style.top='24px';}
 let SUBS=[];
 window.READY=false;
 Promise.all([fetch('subs_'+(Q.get('s')||'airdingin')+'.json').then(r=>r.json()).then(j=>SUBS=j),document.fonts.load('800 80px B2'),new Promise(r=>{if(wm.complete)r();else wm.onload=r;})]).then(()=>{window.READY=true;});
@@ -204,6 +203,8 @@ const S=[];
 const CX=960,CY=960;
 function camV(t,t0,t1,a,b){const k=eio((t-t0)/(t1-t0));return [lerp(a[0],b[0],k),lerp(a[1],b[1],k),lerp(a[2],b[2],k)];}
 </script>
+<script src="komo_engine.js"></script>
+<script src="howcome_lib.js"></script>
 <script>const SC=Q.get('s')||'airdingin';document.write('<script src="scenes_'+SC+'.js"><\/script>');</script>
 <script>
 // ---------- subtitles ----------

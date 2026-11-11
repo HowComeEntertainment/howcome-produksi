@@ -1,1 +1,6 @@
 audio/test*.mp3
+kit/fr_*/
+kit/st/
+kit/sty/
+kit/log_*.txt
+kit/out_*.mp4

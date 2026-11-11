@@ -23,4 +23,4 @@ smile (default), happy (^ ^), shocked (O mouth + sweat drop), curious (one brow 
 "HOWCOME?" in Baloo 2 ExtraBold, gold gradient (`#FFE9A0` → `#F4C542` → `#D8962A`), navy outline 14 px.
 
 ## Watermark
-`kit/wm.png` (520x110, generated from `maskot/wm.html`): KOMO avatar + text **"Please Subscribe Me"** (LOCKED wording). Placement like Style A: 9:16 width 760 px at (36,165); 16:9 width 600 px at (28,24).
+`kit/wm.png` (520x110, generated from `maskot/wm.html`): KOMO avatar + text **"Please Subscribe Me"** (LOCKED wording). Placement like Style A: 9:16 width 560 px at (36,160); 16:9 width 440 px at (28,24).
