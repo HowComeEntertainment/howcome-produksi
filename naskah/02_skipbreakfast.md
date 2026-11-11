@@ -1,44 +1,54 @@
 # What Happens If You Skip Breakfast for 30 Days?
 
-## SHORT (1 audio file, max 1000 characters incl. tags, ~55-60 s)
+## SHORT (~89 s)
 
-[playful] Breakfast is the most important meal of the day... right? [pause] So what if you skipped it for thirty days?
+They told you breakfast is the most important meal of the day. [question-oh] But what if you skipped it... for thirty whole days?
 
-[whispering] Fun fact: that slogan got a huge push from cereal companies over a hundred years ago. [chuckling] Yep.
+First, a little secret. That famous line got a huge push from cereal companies more than a hundred years ago. [laughter] Yep. People selling breakfast told you breakfast was important.
 
-[tired] Week one is rough. Your hunger hormone follows your schedule, so your stomach still growls at breakfast time. You might feel cranky.
+[question-ah] So how come so many people skip it and feel totally fine?
 
-[excited] But your body adapts. After a couple of weeks, that morning hunger often fades.
+Week one is the rough part. Your hunger hormone, ghrelin, follows your schedule. So at your usual breakfast time, your stomach still growls. [sigh] You might feel cranky.
 
-[playful] And weight? A big BMJ review found breakfast eaters ate about 260 more calories a day, and breakfast didn't help weight loss.
+But for many people, the body adapts. After a couple of weeks, that morning hunger calms down, because your hormones learn the new routine.
 
-[drum roll] Plot twist! Skipping only works if lunch isn't a junk food party. Many skippers overeat later.
+What about weight? A big review in the BMJ found breakfast eaters actually ate about [surprise-wa] two hundred sixty more calories a day, and breakfast didn't help people lose weight.
 
-[softly] Kids, teens, and people with diabetes on medication should be careful. What really matters is what you eat all day.
+[surprise-oh] Plot twist! Skipping only works if lunch doesn't turn into a giant junk food party. Many skippers overeat later and cancel it all out.
 
-[playful] Team breakfast or team skip? Comment below, and send this to your coffee-till-noon friend!
+[confirmation-en] And it's not for everyone. Kids and teens usually focus better at school after breakfast. And people with diabetes on medication should talk to a doctor first.
 
-## YOUTUBE (1 audio file, max 1500 characters incl. tags, ~85 s)
+So breakfast isn't magic, and skipping it isn't a crime. What really matters is what you eat all day.
 
-[playful] They told you breakfast is the most important meal of the day. [pause] But what if you skipped it for thirty days?
+Are you team breakfast or team skip? Tell me in the comments, and send this to the friend who lives on coffee until noon.
 
-[whispering] Fun fact: that slogan got a huge push from cereal companies over a hundred years ago. [chuckling] Yep. People selling breakfast told you breakfast was important.
+## YOUTUBE (~144 s)
 
-[tired] Week one is rough. Your hunger hormone, ghrelin, follows your schedule, so your stomach still growls at breakfast time. You might feel cranky, a little foggy, and very interested in donuts. [chuckling]
+They told you breakfast is the most important meal of the day. Your parents said it. Your teachers said it. Cereal boxes definitely said it. [question-oh] But what if you skipped it... for thirty whole days?
 
-[excited] But your body adapts. After a couple of weeks, that morning hunger often fades.
+First, a little secret. That famous line got a huge push from cereal companies more than a hundred years ago. [laughter] Yep. People selling breakfast told you breakfast was important.
 
-"Breakfast kickstarts your metabolism"? [scoffing] When researchers tested it, breakfast didn't change how many calories people burned at rest. Breakfast eaters just moved a bit more in the morning.
+[question-ah] So how come so many people skip it and feel totally fine?
 
-[playful] And weight? A big BMJ review found breakfast eaters ate about 260 more calories a day, and breakfast didn't help weight loss.
+Week one is the rough part. Your hunger hormone, ghrelin, follows your schedule. It rises right before the times you usually eat. So at your normal breakfast time, your stomach still growls. [sigh] You might feel cranky, a little foggy, and very interested in donuts. [laughter]
 
-[gasping] But wait. Some studies link skipping breakfast to heart disease. How come? Those studies can't prove cause, and skippers also smoked and drank more.
+But for many people, the body adapts. After a couple of weeks, that morning hunger calms down, because your hormones learn the new routine.
 
-[drum roll] Plot twist! Skipping only works if lunch isn't a junk food party. Many skippers overeat later and cancel it all out.
+Now, what about the classic warning, "Breakfast kickstarts your metabolism"? [dissatisfaction-hnn] When researchers in England tested it, eating breakfast did not change how many calories people burned at rest. Breakfast eaters just moved around a bit more in the morning.
 
-[softly] Kids, teens, and people with diabetes on medication should be careful. What really matters is what you eat all day.
+And weight? A big review in the BMJ found breakfast eaters actually ate about [surprise-wa] two hundred sixty more calories a day, and breakfast didn't help people lose weight.
 
-[playful] Team breakfast or team skip? Comment below, and subscribe for more HowCome!
+[question-ei] But wait. Some studies link skipping breakfast to heart disease. How come? Those studies only watch people. They can't prove cause. And breakfast skippers, on average, also smoked more, drank more, and ate worse. So the breakfast may not be the real villain.
+
+[surprise-oh] Plot twist! Skipping only works if lunch doesn't turn into a giant junk food party. Lots of skippers get so hungry they overeat later and cancel everything out.
+
+[confirmation-en] And it's not for everyone. Kids and teens usually focus better at school after breakfast. And people with diabetes on medication should talk to a doctor first.
+
+So breakfast isn't magic, and skipping it isn't a crime. What really matters is what you eat all day.
+
+Are you team breakfast or team skip? Tell me in the comments, and send this to the friend who lives on coffee until noon.
+
+And if you learned something new, hit subscribe. See you in the next HowCome!
 
 ## Sources (for on-screen, small, bottom-left)
 - Sievert et al., BMJ (2019): breakfast eaters ~260 kcal/day more, no weight-loss benefit

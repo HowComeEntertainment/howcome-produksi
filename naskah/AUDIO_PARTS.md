@@ -1,131 +1,165 @@
-# Narasi + audio tag
+# Narasi siap rekam (Voice Studio)
 
-Short = 1 file audio, maks 1000 karakter. YouTube = 1 file audio, maks 1500 karakter. Batas sudah termasuk tag. Tag di [kurung] adalah instruksi untuk TTS (tidak dibaca).
+Tanpa batas karakter. Short sekitar 89 detik, YouTube sekitar 144 detik. Hanya memakai tag Voice Studio: [laughter] [sigh] [confirmation-en] [question-en] [question-ah] [question-oh] [question-ei] [question-yi] [surprise-ah] [surprise-oh] [surprise-wa] [surprise-yo] [dissatisfaction-hnn].
 
-## sleep4h_short.mp3 (960 karakter)
-
-```
-[excited] Four hours of sleep. [slowly] Every. Single. Night. [playful] Sounds like a hustle hack, right? [pause] So how come your body falls apart?
-
-[yawning] Day one, your focus slips. In one study, people sleeping four hours a night for two weeks kept getting worse on attention tests. [whispering] And they barely noticed.
-
-[excited] Day three, your hunger goes wild. Your "I'm full" hormone drops, and your "feed me" hormone jumps. Hello, pizza. Chips. Sugar. All of it.
-
-[heartbeat] Day six, healthy young men handled sugar like people heading toward diabetes. And people sleeping under six hours are about four times more likely to catch a cold. [sniffling]
-
-[drum roll] Plot twist! A few people can thrive on less sleep, thanks to a rare gene. Your chances? [chuckling] Tiny.
-
-[pause] For most of us, seven hours or more isn't lazy. It's maintenance.
-
-[playful] So, team four hours or team eight hours? Comment below, and send this to your 3 AM friend!
-```
-
-## sleep4h_yt.mp3 (1472 karakter)
+## sleep4h_short.mp3
 
 ```
-[excited] Four hours of sleep. [slowly] Every. Single. Night. [playful] Some people brag about it like a superpower. CEOs, students, gamers. [pause] So how come scientists keep finding the opposite?
+Four hours of sleep. Every. Single. Night. Sounds like a hustle hack, right? [question-en] More time to get stuff done.
 
-While you sleep, your brain runs a cleaning system that washes away the day's waste. Cut sleep short, and the cleanup gets cut too.
+A lot of people think your body just gets used to it. [question-ah] So how come it keeps falling apart?
 
-[yawning] Day one, your focus slips. Being awake seventeen to nineteen hours can hurt performance about as much as being [drunken voice] slightly drunk.
+Day one, your focus slips and your reactions slow down. In one study, people who slept four hours a night for two weeks got worse and worse on simple attention tests. The scary part? [surprise-ah] They barely noticed.
 
-In one study, people sleeping four hours a night for two weeks kept getting worse on attention tests. [whispering] And they barely noticed. Their brains were failing in silence.
+Day three, your hunger goes wild. Short sleep lowers leptin, the hormone that says "I'm full," and raises ghrelin, the one that screams "feed me!" [laughter] Suddenly you want pizza, chips, and sugar. All of it.
 
-[excited] Day three, your hunger goes wild. Your "I'm full" hormone drops, and your "feed me" hormone jumps. Hello, pizza.
+Day six, your blood sugar starts acting weird. In a famous experiment, healthy young men who slept four hours a night for six nights handled sugar like people heading toward diabetes.
 
-[sighing] Your mood gets shaky too. After one sleepless night, the brain's emotional alarm reacted about sixty percent stronger. Tiny problems feel huge.
+And your immune system? People who sleep less than six hours are about four times more likely to catch a cold.
 
-[heartbeat] Day six, healthy young men handled sugar like people heading toward diabetes. And sleeping under six hours makes you about four times more likely to catch a cold. [sniffling]
+[surprise-oh] Plot twist! A few people really can sleep less and feel fine, thanks to a rare gene. But the chance that you have it? [laughter] Tiny.
 
-Weekend sleep-ins? [sighing] They don't fully fix it.
+So for most of us, seven hours or more isn't lazy. [confirmation-en] It's maintenance.
 
-[drum roll] Plot twist! A few people thrive on less sleep, thanks to a rare gene. Your chances? [chuckling] Tiny.
-
-[pause] For most adults, seven hours or more isn't lazy. It's maintenance.
-
-[playful] Team four hours or team eight hours? Comment below, and subscribe for more HowCome!
+Be honest. How many hours did you sleep last night? Team four hours, or team eight hours? Tell me in the comments, and send this to the friend who's always online at 3 AM.
 ```
 
-## skipbreakfast_short.mp3 (941 karakter)
+## sleep4h_yt.mp3
 
 ```
-[playful] Breakfast is the most important meal of the day... right? [pause] So what if you skipped it for thirty days?
+Four hours of sleep. Every. Single. Night. Some people brag about it like it's a superpower. [dissatisfaction-hnn] CEOs, students, gamers. More time awake, more time to win.
 
-[whispering] Fun fact: that slogan got a huge push from cereal companies over a hundred years ago. [chuckling] Yep.
+And a lot of people believe your body just adapts. [question-ah] So how come scientists keep finding the opposite?
 
-[tired] Week one is rough. Your hunger hormone follows your schedule, so your stomach still growls at breakfast time. You might feel cranky.
+Let's start with your brain. While you sleep, your brain runs a cleaning system that washes away waste built up during the day. Cut sleep short, and that cleanup gets cut short too.
 
-[excited] But your body adapts. After a couple of weeks, that morning hunger often fades.
+Day one, your focus slips and your reactions slow down. Being awake for seventeen to nineteen hours can hurt your performance about as much as being slightly drunk.
 
-[playful] And weight? A big BMJ review found breakfast eaters ate about 260 more calories a day, and breakfast didn't help weight loss.
+Now keep going. In one study, people who slept four hours a night for two weeks got worse and worse on attention tests. [surprise-ah] But here's the scary part. They felt only a little sleepy. Their brains were failing, and they barely noticed.
 
-[drum roll] Plot twist! Skipping only works if lunch isn't a junk food party. Many skippers overeat later.
+Day three, your hunger goes wild. Short sleep lowers leptin, the hormone that says "I'm full," and raises ghrelin, the one that screams "feed me!" [laughter] So you crave pizza, chips, and sugar. All of it.
 
-[softly] Kids, teens, and people with diabetes on medication should be careful. What really matters is what you eat all day.
+[sigh] Your mood gets shaky too. After a sleepless night, the brain's emotional alarm, the amygdala, reacted about sixty percent more strongly to upsetting pictures. Tiny problems feel huge.
 
-[playful] Team breakfast or team skip? Comment below, and send this to your coffee-till-noon friend!
+Day six, your blood sugar starts acting weird. In a famous experiment, healthy young men who slept four hours a night for six nights handled sugar like people heading toward diabetes.
+
+And your immune system? People who sleep less than six hours are about four times more likely to catch a cold.
+
+So can you just catch up on the weekend? [sigh] Sadly, not really. In one study, weekend sleep-ins didn't stop the damage to how the body handles sugar.
+
+[surprise-oh] Plot twist! A few people really can sleep less and feel fine, thanks to a rare gene. But the chance that you have it? [laughter] Tiny.
+
+So for most adults, seven hours or more isn't lazy. [confirmation-en] It's maintenance.
+
+Be honest. How many hours did you sleep last night? Team four hours, or team eight hours? Tell me in the comments, and send this to the friend who's always online at 3 AM.
+
+And if you learned something new, hit subscribe. See you in the next HowCome!
 ```
 
-## skipbreakfast_yt.mp3 (1442 karakter)
+## skipbreakfast_short.mp3
 
 ```
-[playful] They told you breakfast is the most important meal of the day. [pause] But what if you skipped it for thirty days?
+They told you breakfast is the most important meal of the day. [question-oh] But what if you skipped it... for thirty whole days?
 
-[whispering] Fun fact: that slogan got a huge push from cereal companies over a hundred years ago. [chuckling] Yep. People selling breakfast told you breakfast was important.
+First, a little secret. That famous line got a huge push from cereal companies more than a hundred years ago. [laughter] Yep. People selling breakfast told you breakfast was important.
 
-[tired] Week one is rough. Your hunger hormone, ghrelin, follows your schedule, so your stomach still growls at breakfast time. You might feel cranky, a little foggy, and very interested in donuts. [chuckling]
+[question-ah] So how come so many people skip it and feel totally fine?
 
-[excited] But your body adapts. After a couple of weeks, that morning hunger often fades.
+Week one is the rough part. Your hunger hormone, ghrelin, follows your schedule. So at your usual breakfast time, your stomach still growls. [sigh] You might feel cranky.
 
-"Breakfast kickstarts your metabolism"? [scoffing] When researchers tested it, breakfast didn't change how many calories people burned at rest. Breakfast eaters just moved a bit more in the morning.
+But for many people, the body adapts. After a couple of weeks, that morning hunger calms down, because your hormones learn the new routine.
 
-[playful] And weight? A big BMJ review found breakfast eaters ate about 260 more calories a day, and breakfast didn't help weight loss.
+What about weight? A big review in the BMJ found breakfast eaters actually ate about [surprise-wa] two hundred sixty more calories a day, and breakfast didn't help people lose weight.
 
-[gasping] But wait. Some studies link skipping breakfast to heart disease. How come? Those studies can't prove cause, and skippers also smoked and drank more.
+[surprise-oh] Plot twist! Skipping only works if lunch doesn't turn into a giant junk food party. Many skippers overeat later and cancel it all out.
 
-[drum roll] Plot twist! Skipping only works if lunch isn't a junk food party. Many skippers overeat later and cancel it all out.
+[confirmation-en] And it's not for everyone. Kids and teens usually focus better at school after breakfast. And people with diabetes on medication should talk to a doctor first.
 
-[softly] Kids, teens, and people with diabetes on medication should be careful. What really matters is what you eat all day.
+So breakfast isn't magic, and skipping it isn't a crime. What really matters is what you eat all day.
 
-[playful] Team breakfast or team skip? Comment below, and subscribe for more HowCome!
+Are you team breakfast or team skip? Tell me in the comments, and send this to the friend who lives on coffee until noon.
 ```
 
-## sitallday_short.mp3 (978 karakter)
+## skipbreakfast_yt.mp3
 
 ```
-[bored] Sit for breakfast. [engine starting] Sit in the car. [keyboard typing] Sit at your desk. Sit on the couch. [excited] What happens if you sit all day, every day?
+They told you breakfast is the most important meal of the day. Your parents said it. Your teachers said it. Cereal boxes definitely said it. [question-oh] But what if you skipped it... for thirty whole days?
 
-The average adult sits about six and a half hours a day. Teens? [gasping] More than eight. [pause] So how come sitting still can hurt you?
+First, a little secret. That famous line got a huge push from cereal companies more than a hundred years ago. [laughter] Yep. People selling breakfast told you breakfast was important.
 
-[playful] Your leg muscles are like sugar sponges. When you sit for hours, they basically [sleepy drowsy voice] go to sleep.
+[question-ah] So how come so many people skip it and feel totally fine?
 
-[heartbeat] After just three hours of sitting, blood flow in your leg arteries gets worse. Your hips tighten, and your back starts complaining. [sighing]
+Week one is the rough part. Your hunger hormone, ghrelin, follows your schedule. It rises right before the times you usually eat. So at your normal breakfast time, your stomach still growls. [sigh] You might feel cranky, a little foggy, and very interested in donuts. [laughter]
 
-[drum roll] Plot twist! Sitting is NOT the new smoking. [chuckling] Smoking is way worse. A study of over a million people found about an hour of brisk walking a day seemed to cancel out the risk of sitting eight hours. Even two-minute walks every twenty minutes help.
+But for many people, the body adapts. After a couple of weeks, that morning hunger calms down, because your hormones learn the new routine.
 
-[laughing] So don't quit your chair. Just don't marry it.
+Now, what about the classic warning, "Breakfast kickstarts your metabolism"? [dissatisfaction-hnn] When researchers in England tested it, eating breakfast did not change how many calories people burned at rest. Breakfast eaters just moved around a bit more in the morning.
 
-[playful] Team standing desk or team couch? Comment below!
+And weight? A big review in the BMJ found breakfast eaters actually ate about [surprise-wa] two hundred sixty more calories a day, and breakfast didn't help people lose weight.
+
+[question-ei] But wait. Some studies link skipping breakfast to heart disease. How come? Those studies only watch people. They can't prove cause. And breakfast skippers, on average, also smoked more, drank more, and ate worse. So the breakfast may not be the real villain.
+
+[surprise-oh] Plot twist! Skipping only works if lunch doesn't turn into a giant junk food party. Lots of skippers get so hungry they overeat later and cancel everything out.
+
+[confirmation-en] And it's not for everyone. Kids and teens usually focus better at school after breakfast. And people with diabetes on medication should talk to a doctor first.
+
+So breakfast isn't magic, and skipping it isn't a crime. What really matters is what you eat all day.
+
+Are you team breakfast or team skip? Tell me in the comments, and send this to the friend who lives on coffee until noon.
+
+And if you learned something new, hit subscribe. See you in the next HowCome!
 ```
 
-## sitallday_yt.mp3 (1412 karakter)
+## sitallday_short.mp3
 
 ```
-[bored] Sit for breakfast. [engine starting] Sit in the car. [keyboard typing] Sit at your desk. Sit on the couch and scroll until bedtime. [excited] What happens if you sit all day, every day?
+You wake up and sit for breakfast. Sit in the car. Sit at your desk. Then sit on the couch and scroll. [question-yi] What happens if you sit all day, every day?
 
-The average adult sits about six and a half hours a day. Teens? [gasping] More than eight. [pause] So how come sitting still can hurt you?
+The average American adult sits about six and a half hours a day. Teens? [surprise-wa] More than eight.
 
-[playful] Your leg muscles are like sugar sponges. When they move, they pull sugar out of your blood. When you sit for hours, they basically [sleepy drowsy voice] go to sleep, and more sugar stays in your blood.
+People say sitting is the new smoking. [question-ah] But how come just sitting still could hurt you?
 
-[heartbeat] After just three hours of sitting, blood flow in your leg arteries gets worse. But a five-minute walk every hour prevented it.
+Here's the thing. Your leg muscles are like sugar sponges. When they move, they pull sugar out of your blood. When you sit for hours, those sponges basically go to sleep.
 
-Your hips tighten, your glutes get lazy, and your back starts complaining. Your head drifts toward the screen. [sighing] Over years, long sitting is linked to heart disease and type two diabetes.
+After just three hours of sitting, scientists found that blood flow in the leg arteries got noticeably worse.
 
-[drum roll] Plot twist! Sitting is NOT the new smoking. [chuckling] Smoking is way worse. A study of over a million people found about an hour of brisk walking a day seemed to cancel out the risk of sitting eight hours.
+Your hips get tight, your glutes get lazy, and your lower back starts complaining. [sigh]
 
-Even two-minute walks every twenty minutes help. So here's your easy plan. Stand up during calls, take the stairs, and set a timer to move every half hour.
+[surprise-oh] Plot twist! Sitting is not the new smoking. [laughter] Smoking is way worse. And the fix is surprisingly simple. A study of over a million people found that about an hour of moderate activity a day, like brisk walking, seemed to cancel out the extra risk from sitting eight hours.
 
-[laughing] So don't quit your chair. Just don't marry it.
+Even tiny moves help. Getting up for a two-minute walk every twenty minutes lowered blood sugar after meals.
 
-[playful] Team standing desk or team couch? Comment below, and subscribe for more HowCome!
+So you don't have to quit your chair. Just don't marry it. [laughter]
+
+[surprise-yo] Are you sitting right now? Be honest. Team standing desk or team couch? Comment below, and send this to the friend who hasn't moved since lunch.
+```
+
+## sitallday_yt.mp3
+
+```
+You wake up and sit for breakfast. Sit in the car. Sit at your desk. Sit for lunch. Then sit on the couch and scroll until bedtime. [question-yi] What happens if you sit all day, every day?
+
+You're not alone. The average American adult sits about six and a half hours a day. Teens? [surprise-wa] More than eight. And that's not even counting a lot of screen time.
+
+People say sitting is the new smoking. [question-ah] But how come just sitting still could hurt you?
+
+Here's the thing. Your leg muscles are like sugar sponges. When they move, they pull sugar out of your blood. When you sit for hours, those sponges basically go to sleep, and more sugar stays floating around.
+
+Now look at your blood vessels. After just three hours of sitting, scientists found that blood flow in the leg arteries got noticeably worse. But when people took a five-minute walk every hour, the problem didn't show up.
+
+Then there's your body shape. Your hip muscles stay short and tight. Your glutes forget their job. Your head drifts forward toward the screen. And your lower back starts complaining. [sigh]
+
+Over years, long sitting time is linked to a higher risk of heart disease, type two diabetes, and dying earlier.
+
+[surprise-oh] Plot twist! Sitting is not the new smoking. [laughter] Smoking is way worse. And the fix is surprisingly simple. A study of over a million people found that about an hour of moderate activity a day, like brisk walking, seemed to cancel out the extra risk from sitting eight hours.
+
+[question-en] Don't have an hour? Even tiny moves help. Getting up for a two-minute walk every twenty minutes lowered blood sugar after meals.
+
+So here's your easy plan. Stand up during phone calls. Take the stairs. Set a timer to move every half hour. And get some real walking in every day, even if it's just a walk after dinner.
+
+You don't have to quit your chair. Just don't marry it. [laughter]
+
+[surprise-yo] Are you sitting right now? Be honest. Team standing desk or team couch? Comment below, and send this to the friend who hasn't moved since lunch.
+
+And if you learned something new, hit subscribe. See you in the next HowCome!
 ```
