@@ -16,35 +16,33 @@
 
 [playful] So, team four hours or team eight hours? Comment below, and send this to your 3 AM friend!
 
-## YOUTUBE (target 144 s)
+## YOUTUBE (max 1500 characters total incl. tags, 2 audio files, ~85 s)
 
-Four hours of sleep. Every. Single. Night. Some people brag about it like it's a superpower. CEOs, students, gamers. More time awake, more time to win.
+### sleep4h_yt_1.mp3
 
-And a lot of people believe your body just adapts. So how come scientists keep finding the opposite?
+[excited] Four hours of sleep. [slowly] Every. Single. Night. [playful] Some people brag about it like a superpower. CEOs, students, gamers. [pause] So how come scientists keep finding the opposite?
 
-Let's start with your brain. While you sleep, your brain runs a cleaning system that washes away waste built up during the day. Cut sleep short, and that cleanup gets cut short too.
+While you sleep, your brain runs a cleaning system that washes away the day's waste. Cut sleep short, and the cleanup gets cut too.
 
-Day one, your focus slips and your reactions slow down. Being awake for seventeen to nineteen hours can hurt your performance about as much as being slightly drunk.
+[yawning] Day one, your focus slips. Being awake seventeen to nineteen hours can hurt performance about as much as being [drunken voice] slightly drunk.
 
-Now keep going. In one study, people who slept four hours a night for two weeks got worse and worse on attention tests. But here's the scary part. They felt only a little sleepy. Their brains were failing, and they barely noticed.
+In one study, people sleeping four hours a night for two weeks kept getting worse on attention tests. [whispering] And they barely noticed. Their brains were failing in silence.
 
-Day three, your hunger goes wild. Short sleep lowers leptin, the hormone that says "I'm full," and raises ghrelin, the one that screams "feed me!" So you crave pizza, chips, and sugar. All of it.
+### sleep4h_yt_2.mp3
 
-Your mood gets shaky too. After a sleepless night, the brain's emotional alarm, the amygdala, reacted about sixty percent more strongly to upsetting pictures. Tiny problems feel huge.
+[excited] Day three, your hunger goes wild. Your "I'm full" hormone drops, and your "feed me" hormone jumps. Hello, pizza.
 
-Day six, your blood sugar starts acting weird. In a famous experiment, healthy young men who slept four hours a night for six nights handled sugar like people heading toward diabetes.
+[sighing] Your mood gets shaky too. After one sleepless night, the brain's emotional alarm reacted about sixty percent stronger. Tiny problems feel huge.
 
-And your immune system? People who sleep less than six hours are about four times more likely to catch a cold.
+[heartbeat] Day six, healthy young men handled sugar like people heading toward diabetes. And sleeping under six hours makes you about four times more likely to catch a cold. [sniffling]
 
-So can you just catch up on the weekend? Sadly, not really. In one study, weekend sleep-ins didn't stop the damage to how the body handles sugar.
+Weekend sleep-ins? [sighing] They don't fully fix it.
 
-Plot twist! A few people really can sleep less and feel fine, thanks to a rare gene. But the chance that you have it? Tiny.
+[drum roll] Plot twist! A few people thrive on less sleep, thanks to a rare gene. Your chances? [chuckling] Tiny.
 
-So for most adults, seven hours or more isn't lazy. It's maintenance.
+[pause] For most adults, seven hours or more isn't lazy. It's maintenance.
 
-Be honest. How many hours did you sleep last night? Team four hours, or team eight hours? Tell me in the comments, and send this to the friend who's always online at 3 AM.
-
-And if you learned something new, hit subscribe. See you in the next HowCome!
+[playful] Team four hours or team eight hours? Comment below, and subscribe for more HowCome!
 
 ## Sources (for on-screen, small, bottom-left)
 - Van Dongen et al., Sleep (2003): 14 days of 4 h/6 h sleep, attention decline, low self-awareness
