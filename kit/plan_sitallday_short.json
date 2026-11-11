@@ -1,0 +1,49 @@
+{
+ "id": "sitallday",
+ "SC": "sitallday_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 8.22
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 8.22,
+   "t1": 19.061
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.061,
+   "t1": 27.78
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 27.78,
+   "t1": 32.808
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 32.808,
+   "t1": 44.489
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 44.489,
+   "t1": 51.649
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 51.649,
+   "t1": 55.001
+  }
+ ]
+}

@@ -7,7 +7,7 @@ function brain(t,s=1,alarm=0){const p=0.5+0.5*Math.sin(t*8);
   return g(`scale(${s})`,b);}
 function bubbleDots(t,cx,cy,n,col,on){let s='';for(let i=0;i<n;i++){const ph=(t*0.5+rnd(i))%1;const x=cx+(rnd(i+9)-0.5)*420,y=cy+120-ph*360;s+=`<circle cx="${fmt(x)}" cy="${fmt(y)}" r="${fmt(10+rnd(i+3)*16)}" fill="${col}" opacity="${fmt(on*Math.sin(ph*Math.PI)*.8)}" stroke="#fff" stroke-width="3"/>`;}return s;}
 function calendarDay(txt,s=1,x=0){return g(tr(x,0,s),`<rect x="-150" y="-170" width="300" height="320" rx="30" fill="#fff" stroke="${OL}" stroke-width="8"/><rect x="-150" y="-170" width="300" height="90" rx="30" fill="#E8505B" stroke="${OL}" stroke-width="8"/><text x="0" y="-108" text-anchor="middle" font-family="B2" font-weight="800" font-size="54" fill="#fff">${txt}</text><text x="0" y="70" text-anchor="middle" font-family="B2" font-weight="800" font-size="110" fill="${OL}">Zz</text>`,'filter="url(#dsh)"');}
-const grid=c=>{let s=`<rect width="1920" height="1920" fill="${c}"/>`;for(let i=0;i<20;i++)s+=`<path d="M${i*100},0V1920M0,${i*100}H1920" stroke="#fff" stroke-opacity=".05" stroke-width="3"/>`;return s;};
+const grid_old=c=>{let s=`<rect width="1920" height="1920" fill="${c}"/>`;for(let i=0;i<20;i++)s+=`<path d="M${i*100},0V1920M0,${i*100}H1920" stroke="#fff" stroke-opacity=".05" stroke-width="3"/>`;return s;};
 const DAY=(txt,t,t0)=>label(txt,{x:W/2,y:140,size:64,bg:'#F4C542',fill:OL,sc:popS(t,t0,.45)});
 
 // 1 HOOK 0 - 10.29

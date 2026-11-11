@@ -54,3 +54,26 @@ function checkCard(t,items){ // items [{txt,t}]
     s+=`<text x="-220" y="${y+22}" font-family="B2" font-weight="800" font-size="62" fill="${OL}">${it.txt}</text>`;});
   return g('',s,'filter="url(#dsh)"');}
 
+
+// ---------- plan-driven timelines (compose.py) ----------
+function syncGet(u){const x=new XMLHttpRequest();x.open('GET',u,false);x.send();return x.responseText;}
+let PLAN={items:[]},WORDS=[];try{PLAN=JSON.parse(syncGet('plan_'+(Q.get('s')||'')+'.json'));WORDS=JSON.parse(syncGet('timing_'+(Q.get('s')||'')+'.json')).words;}catch(e){} // older videos have no plan
+const IS_SHORT=(Q.get('s')||'').endsWith('_short');
+const norm=w=>w.toLowerCase().replace(/[^a-z0-9']/g,'');
+// time of the k-th occurrence of a word (optionally inside one block) on this timeline
+function WT(w,block,k=0){const L=WORDS.filter(x=>norm(x.w)===norm(w)&&(!block||x.block===block));return L.length?L[Math.min(k,L.length-1)].s:-99;}
+function ITEM(name){return PLAN.items.find(x=>x.name===name);}
+// B: {itemName: (t0,t1,item)=>({world,cam,hud})}; silent items fall back to B.sil, pads to B.pad
+function buildFromPlan(B){PLAN.items.forEach((it,i)=>{const f=B[it.name]||(it.name.startsWith('sil_')?B.sil:null)||B.pad;if(!f)return;const sc=f(it.t0,it.t1,it);S.push(Object.assign({t0:it.t0,t1:i===PLAN.items.length-1?it.t1+2:it.t1},sc));});}
+function loadTopic(id){(0,eval)(syncGet('topic_'+id+'.js'));}
+// generic pieces for silent "explain" scenes
+function factCard(t,t0,lines,{bg='#fff',col=OL,size=isV?60:58,w=isV?900:1300}={}){const k=popS(t,t0,.5);if(k<=0)return '';const h=lines.length*size*1.35+90;
+  let s=`<rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="40" fill="${bg}" stroke="${OL}" stroke-width="8"/>`;
+  lines.forEach((l,i)=>{const kk=fadeIn(t,t0+0.35+i*0.5,.35);s+=`<text x="0" y="${fmt(-h/2+75+i*size*1.35+size*0.3)}" text-anchor="middle" font-family="B2" font-weight="800" font-size="${size}" fill="${col}" opacity="${fmt(kk)}">${l}</text>`;});
+  return g(tr(0,0,k),s,'filter="url(#dsh)"');}
+function subscribeEnd(t,t0,t1){return {world:t=>{let s=`<rect width="1920" height="1920" fill="#0F2A3A"/><circle cx="960" cy="900" r="560" fill="#5EC8FF" opacity=".22" filter="url(#glowf)"/>`+rays(960,300,9,1600,10,.35,Math.sin(t)*2);
+  s+=komo({x:isV?960:700,y:isV?1300:1400,s:isV?.9:.8,expr:'happy',aL:70,aR:-60+Math.sin(t*9)*14,blink:blinkAt(t,14)});
+  const k=popS(t,t0+.3,.5);if(k>0)s+=g(tr(isV?960:1280,isV?640:900,k*(isV?.9:1)),`<rect x="-300" y="-90" width="600" height="180" rx="40" fill="#E5383B" stroke="${OL}" stroke-width="10"/><text x="0" y="34" text-anchor="middle" font-family="B2" font-weight="800" font-size="96" fill="#fff">SUBSCRIBE</text>`,'filter="url(#dsh)"');return s;},
+  cam:t=>camV(t,t0,t1,[960,940,1.0],[960,920,1.05]),hud:t=>hudTitle('SEE YOU IN THE NEXT HOWCOME!',isV?470:150,popS(t,t0+.6,.45),{fill:'#FFE27A',size:isV?60:66})};}
+
+const grid=c=>{let s=`<rect width="1920" height="1920" fill="${c}"/>`;for(let i=0;i<20;i++)s+=`<path d="M${i*100},0V1920M0,${i*100}H1920" stroke="#fff" stroke-opacity=".05" stroke-width="3"/>`;return s;};

@@ -1,0 +1,55 @@
+{
+ "id": "skipbreakfast",
+ "SC": "skipbreakfast_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 7.99
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 7.99,
+   "t1": 20.76
+  },
+  {
+   "name": "metab",
+   "kind": "voice",
+   "t0": 20.76,
+   "t1": 27.69
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 27.69,
+   "t1": 36.41
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 36.41,
+   "t1": 38.594
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 38.594,
+   "t1": 48.744
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 48.744,
+   "t1": 53.544
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 53.544,
+   "t1": 55.0
+  }
+ ]
+}
