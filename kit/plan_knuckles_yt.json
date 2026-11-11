@@ -1,0 +1,79 @@
+{
+ "id": "knuckles",
+ "SC": "knuckles_yt",
+ "total": 144.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 7.42
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 7.42,
+   "t1": 24.732
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 24.732,
+   "t1": 32.242
+  },
+  {
+   "name": "sil_context",
+   "kind": "silent",
+   "t0": 32.242,
+   "t1": 49.554
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 49.554,
+   "t1": 60.054
+  },
+  {
+   "name": "sil_point1",
+   "kind": "silent",
+   "t0": 60.054,
+   "t1": 77.366
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 77.366,
+   "t1": 86.466
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 86.466,
+   "t1": 103.778
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 103.778,
+   "t1": 114.228
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 114.228,
+   "t1": 131.54
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 131.54,
+   "t1": 138.0
+  },
+  {
+   "name": "sil_outro",
+   "kind": "silent",
+   "t0": 138.0,
+   "t1": 144.0
+  }
+ ]
+}

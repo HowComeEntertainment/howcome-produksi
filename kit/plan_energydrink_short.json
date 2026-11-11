@@ -1,0 +1,55 @@
+{
+ "id": "energydrink",
+ "SC": "energydrink_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 6.9
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 6.9,
+   "t1": 20.71
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 20.71,
+   "t1": 30.47
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 30.47,
+   "t1": 39.46
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 39.46,
+   "t1": 39.916
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 39.916,
+   "t1": 49.706
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 49.706,
+   "t1": 54.696
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 54.696,
+   "t1": 55.0
+  }
+ ]
+}

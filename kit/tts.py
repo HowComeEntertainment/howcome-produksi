@@ -12,9 +12,23 @@ sub=lambda: json.loads(req('https://api.elevenlabs.io/v1/user/subscription'))
 s0=sub()
 audio=req(f'https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_128',{'text':text,'model_id':MODEL})
 open(f'{root}/audio/{id_}.mp3','wb').write(audio)
-h=json.loads(req('https://api.elevenlabs.io/v1/history?page_size=1'))['history'][0]
-used=h['character_count_change_to']-h['character_count_change_from']; s1=sub(); s1['character_count']=max(s1['character_count'],h['character_count_change_to'])
+import glob
+known={open(f).read().strip() for f in glob.glob(f'{root}/audio/*.history_id')}
+h=None
+for _ in range(30):  # the newest history item that is not already assigned to another narration
+    for it in json.loads(req('https://api.elevenlabs.io/v1/history?page_size=5'))['history']:
+        if it['history_item_id'] not in known: h=it; break
+    if h: break
+    time.sleep(2)
+used=h['character_count_change_to']-h['character_count_change_from']
 open(f'{root}/audio/{id_}.history_id','w').write(h['history_item_id'])
+prev=0
+lg=f'{root}/audio/usage_log.md'
+if os.path.exists(lg):
+    for l in open(lg).read().splitlines()[4:]:
+        try: prev+=int(l.split('|')[4])
+        except: pass
+s1=sub(); s1['character_count']=prev+used
 log=f'{root}/audio/usage_log.md'
 if not os.path.exists(log): open(log,'w').write('# ElevenLabs usage log (Alex v3)\n\n| date (UTC) | id | script chars | credits used | total used | limit | remaining |\n|---|---|---|---|---|---|---|\n')
 open(log,'a').write(f"| {time.strftime('%Y-%m-%d %H:%M',time.gmtime())} | {id_} | {len(text)} | {used} | {s1['character_count']} | {s1['character_limit']} | {s1['character_limit']-s1['character_count']} |\n")

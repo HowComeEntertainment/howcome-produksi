@@ -6,6 +6,9 @@ Talk to the owner in casual Indonesian. Everything in the videos is in **English
 - Name: **HOWCOME?** Mascot: **KOMO** (locked, see `maskot/KOMO.md` and `maskot/KOMO_official.png`). Do not change the design.
 - Narrator: young male voice, US accent. Owner sends only the audio (mp3).
 
+## Title theme (LOCKED)
+- Every title is a **"What if..."** question about everyday life: things we see all the time or habits we do without noticing (e.g. What If You Cracked Your Knuckles Every Day?). Universal, debate-friendly, international.
+
 ## Video
 - Style = MASA SIH **Style A** (`kit/STYLE_A.md`), but replace YUMA with KOMO and translate all on-screen text to English.
 - Workflow: mp3 -> transcribe (faster-whisper, English) -> `subs_<id>.json` -> write `scenes_<id>.js` -> `kit/runone.sh <id>`.

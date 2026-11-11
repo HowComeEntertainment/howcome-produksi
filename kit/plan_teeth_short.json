@@ -1,0 +1,55 @@
+{
+ "id": "teeth",
+ "SC": "teeth_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 6.98
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 6.98,
+   "t1": 16.34
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 16.34,
+   "t1": 27.44
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 27.44,
+   "t1": 37.48
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 37.48,
+   "t1": 39.136
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 39.136,
+   "t1": 48.596
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 48.596,
+   "t1": 53.896
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 53.896,
+   "t1": 55.0
+  }
+ ]
+}

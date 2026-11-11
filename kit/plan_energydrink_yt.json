@@ -1,0 +1,79 @@
+{
+ "id": "energydrink",
+ "SC": "energydrink_yt",
+ "total": 144.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 6.9
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 6.9,
+   "t1": 23.652
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 23.652,
+   "t1": 37.462
+  },
+  {
+   "name": "sil_context",
+   "kind": "silent",
+   "t0": 37.462,
+   "t1": 54.214
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 54.214,
+   "t1": 63.974
+  },
+  {
+   "name": "sil_point1",
+   "kind": "silent",
+   "t0": 63.974,
+   "t1": 80.726
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 80.726,
+   "t1": 89.716
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 89.716,
+   "t1": 106.468
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 106.468,
+   "t1": 116.258
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 116.258,
+   "t1": 133.01
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 133.01,
+   "t1": 138.0
+  },
+  {
+   "name": "sil_outro",
+   "kind": "silent",
+   "t0": 138.0,
+   "t1": 144.0
+  }
+ ]
+}
