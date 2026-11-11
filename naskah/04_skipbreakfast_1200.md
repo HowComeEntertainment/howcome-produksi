@@ -1,6 +1,6 @@
 # Skip Breakfast for 30 Days (1 narration -> YouTube + Short)
 
-Total: 1158 characters incl. tags (max 1200). Blocks marked SHORT are cut into the Short.
+Total: 1158 characters incl. tags (max 1200). Short (9:16) and YouTube (16:9) both use this full narration, same duration.
 
 ## hook (SHORT + YT, 160 chars)
 
