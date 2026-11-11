@@ -13,6 +13,10 @@ Talk to the owner in casual Indonesian. Everything in the videos is in **English
 - Audio is used as-is; never re-generate or change the narration.
 - Always check a frame sheet before delivering.
 
+## Delivery
+- With every finished video, ALWAYS give the owner a ready-to-paste English title + description (hook, key facts, CTA, sources, hashtags; YouTube gets chapters). Save it in `meta/<id>.md`.
+- Narration audio: ElevenLabs, voice **Alex - Upbeat, Energetic and Clear** (`yl2ZDV1MzN4HbQJbMihG`), model **eleven_v3** (LOCKED). Download via `https://api.elevenlabs.io/v1/history/<historyItemId>/audio`; word timings via `/v1/forced-alignment` + `kit/fa2words.py`.
+
 ## Hosting
 - Final Shorts: `videos/<id>_short.mp4`, YouTube 16:9: `videos/<id>_yt.mp4`. Commit, push to `main`.
 - Watermark `kit/wm.png`: KOMO avatar + "Please Subscribe Me" (locked).
